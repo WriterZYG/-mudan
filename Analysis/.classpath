@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/htmlparser.jar"/>
+	<classpathentry kind="lib" path="lib/nlp-util.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/com.emar.adwiser.common.util.jar"/>
+	<classpathentry kind="lib" path="lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/nlp.hadoop.utils.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-2.0.0-ALPHA-2.jar"/>
+	<classpathentry kind="lib" path="lib/RegionExtracter.jar"/>
+	<classpathentry kind="lib" path="lib/MdDfs-1.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.31.jar"/>
+	<classpathentry kind="lib" path="lib/guava-18.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<accessrules>
+			<accessrule kind="accessible" pattern="*/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

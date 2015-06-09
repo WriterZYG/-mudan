@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<node> 
+  <province name="云南"> 
+    <attribute name="高速"> 
+      <title> 
+        <content type="内容">云保公路</content>  
+        <content type="限制">云县</content>  
+        <content type="限制">保山</content> 
+      </title>  
+      <title> 
+        <content type="内容">曲陆高速</content>  
+        <content type="限制">曲靖</content> 
+      </title>  
+      <title> 
+        <content type="内容">保龙高速</content>  
+        <content type="限制">保山</content>  
+        <content type="限制">龙陵</content> 
+      </title>  
+      <title> 
+        <content type="内容">永武高速</content>  
+        <content type="限制">永仁</content>  
+        <content type="限制">武定</content> 
+      </title>  
+      <title> 
+        <content type="内容">安晋高速</content>  
+        <content type="限制">安宁</content> 
+      </title>  
+      <title> 
+        <content type="内容">通建高速</content>  
+        <content type="限制">通海</content>  
+        <content type="限制">建水</content> 
+      </title>  
+      <title> 
+        <content type="内容">昆曲高速</content>  
+        <content type="限制">昆明</content>  
+        <content type="限制">曲靖</content> 
+      </title>  
+      <title> 
+        <content type="内容">昆玉高速</content>  
+        <content type="限制">昆明</content>  
+        <content type="限制">玉溪</content> 
+      </title>  
+      <title> 
+        <content type="内容">昆安高速</content>  
+        <content type="限制">昆明</content>  
+        <content type="限制">安宁</content> 
+      </title>  
+      <title> 
+        <content type="内容">曲胜高速</content>  
+        <content type="限制">曲靖</content> 
+      </title>  
+      <title> 
+        <content type="内容">川滇高速</content>  
+        <content type="限制">空</content>  
+        <content type="限制">云南</content> 
+      </title>  
+      <title> 
+        <content type="内容">蒙文公路</content>  
+        <content type="限制">蒙自</content>  
+        <content type="限制">文山</content> 
+      </title>  
+      <title> 
+        <content type="内容">渝昆高速</content>  
+        <content type="限制">空</content>  
+        <content type="限制">昆明</content> 
+      </title>  
+      <title> 
+        <content type="内容">昆磨高速</content>  
+        <content type="限制">昆明</content> 
+      </title>  
+      <title> 
+        <content type="内容">石元高速</content>  
+        <content type="限制">石屏</content>  
+        <content type="限制">元江</content> 
+      </title>  
+      <title> 
+        <content type="内容">昆楚高速</content>  
+        <content type="限制">昆明</content>  
+        <content type="限制">楚雄</content> 
+      </title>  
+      <title> 
+        <content type="内容">大保高速</content>  
+        <content type="限制">大理</content>  
+        <content type="限制">保山</content> 
+      </title>  
+      <title> 
+        <content type="内容">安楚高速</content>  
+        <content type="限制">安宁</content>  
+        <content type="限制">楚雄</content> 
+      </title>  
+      <title> 
+        <content type="内容">平锁高速</content>  
+        <content type="限制">平远</content> 
+      </title>  
+      <title> 
+        <content type="内容">昆武高速</content>  
+        <content type="限制">昆明</content> 
+      </title>  
+      <title> 
+        <content type="内容">楚大高速</content>  
+        <content type="限制">楚雄</content>  
+        <content type="限制">大理</content> 
+      </title>  
+      <title> 
+        <content type="内容">元磨高速</content>  
+        <content type="限制">元江</content> 
+      </title>  
+      <title> 
+        <content type="内容">昆石高速</content>  
+        <content type="限制">昆明</content>  
+        <content type="限制">石林</content> 
+      </title> 
+    </attribute>  
+    <attribute name="铁路"> 
+      <title> 
+        <content type="内容">南昆</content>  
+        <content type="限制">空</content>  
+        <content type="限制">昆明</content> 
+      </title>  
+      <title> 
+        <content type="内容">大丽</content>  
+        <content type="限制">大理</content>  
+        <content type="限制">丽江</content> 
+      </title>  
+      <title> 
+        <content type="内容">丽攀昭</content>  
+        <content type="限制">丽江</content>  
+        <content type="限制">空</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">蒙宝</content>  
+        <content type="限制">蒙自</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">大瑞</content>  
+        <content type="限制">大理</content>  
+        <content type="限制">瑞丽</content> 
+      </title>  
+      <title> 
+        <content type="内容">蒙河</content>  
+        <content type="限制">蒙自</content>  
+        <content type="限制">河口</content> 
+      </title>  
+      <title> 
+        <content type="内容">川滇</content>  
+        <content type="限制">空</content>  
+        <content type="限制">云南</content> 
+      </title>  
+      <title> 
+        <content type="内容">玉蒙</content>  
+        <content type="限制">玉溪</content>  
+        <content type="限制">蒙自</content> 
+      </title>  
+      <title> 
+        <content type="内容">师开</content>  
+        <content type="限制">师宗</content>  
+        <content type="限制">开远</content> 
+      </title>  
+      <title> 
+        <content type="内容">昆河</content>  
+        <content type="限制">昆明</content>  
+        <content type="限制">河口</content> 
+      </title>  
+      <title> 
+        <content type="内容">内昆</content>  
+        <content type="限制">空</content>  
+        <content type="限制">昆明</content> 
+      </title>  
+      <title> 
+        <content type="内容">昆玉</content>  
+        <content type="限制">昆明</content>  
+        <content type="限制">玉溪</content> 
+      </title>  
+      <title> 
+        <content type="内容">沪昆</content>  
+        <content type="限制">空</content>  
+        <content type="限制">昆明</content> 
+      </title>  
+      <title> 
+        <content type="内容">丽香</content>  
+        <content type="限制">丽江</content>  
+        <content type="限制">香格里拉</content> 
+      </title>  
+      <title> 
+        <content type="内容">贵昆</content>  
+        <content type="限制">空</content>  
+        <content type="限制">昆明</content> 
+      </title> 
+    </attribute>  
+    <attribute name="大学"> 
+      <title> 
+        <content type="内容">云民大</content>  
+        <content type="限制">云南</content> 
+      </title>  
+      <title> 
+        <content type="内容">云大</content>  
+        <content type="限制">云南</content> 
+      </title>  
+      <title> 
+        <content type="内容">云农大</content>  
+        <content type="限制">云南</content> 
+      </title>  
+      <title> 
+        <content type="内容">云师大</content>  
+        <content type="限制">云南</content> 
+      </title> 
+    </attribute>  
+    <attribute name="前限制"> 
+      <title> 
+        <content type="内容">云县</content>  
+        <content type="限制">左</content>  
+        <content type="限制">密</content>  
+        <content type="限制">灌</content> 
+      </title>  
+      <title> 
+        <content type="内容">春城</content>  
+        <content type="限制">张</content>  
+        <content type="限制">李</content>  
+        <content type="限制">王</content>  
+        <content type="限制">赵</content>  
+        <content type="限制">长</content> 
+      </title>  
+      <title> 
+        <content type="内容">河口</content>  
+        <content type="限制">老</content>  
+        <content type="限制">沙</content>  
+        <content type="限制">梅</content> 
+      </title>  
+      <title> 
+        <content type="内容">文山</content>  
+        <content type="限制">方</content>  
+        <content type="限制">削</content>  
+        <content type="限制">江</content> 
+      </title> 
+    </attribute>  
+    <attribute name="后限制"> 
+      <title> 
+        <content type="内容">丽江</content>  
+        <content type="限制">山</content>  
+        <content type="限制">河</content>  
+        <content type="限制">南</content>  
+        <content type="限制">西</content>  
+        <content type="限制">东</content>  
+        <content type="限制">山</content> 
+      </title>  
+      <title> 
+        <content type="内容">安宁</content>  
+        <content type="限制">区</content> 
+      </title>  
+      <title> 
+        <content type="内容">春城</content>  
+        <content type="限制">市</content>  
+        <content type="限制">管</content>  
+        <content type="限制">区</content>  
+        <content type="限制">路</content> 
+      </title>  
+      <title> 
+        <content type="内容">江城</content>  
+        <content type="限制">市</content>  
+        <content type="限制">区</content> 
+      </title>  
+      <title> 
+        <content type="内容">文山</content>  
+        <content type="限制">会海</content> 
+      </title> 
+    </attribute>  
+    <attribute name="上下文限制">
+      <title>
+        <content type="内容">云南|昆明|玉溪|曲靖|怒江|临沧|德宏|怒江|迪庆|楚雄</content>
+        <content type="限制">元谋</content>
+        <content type="限制">广南</content>
+        <content type="限制">河口</content>
+        <content type="限制">永善</content>
+        <content type="限制">南华</content>
+        <content type="限制">新平</content>
+        <content type="限制">古城</content>
+        <content type="限制">维西</content>
+        <content type="限制">西山</content>
+        <content type="限制">西山区</content>
+        <content type="限制">石林</content>
+        <content type="限制">武定</content>
+        <content type="限制">永胜</content>
+        <content type="限制">保山</content>
+        <content type="限制">瑞丽</content>
+        <content type="限制">玉龙</content>
+        <content type="限制">双江</content>
+        <content type="限制">金平</content>
+        <content type="限制">祥云</content>
+        <content type="限制">香格里拉</content>
+        <content type="限制">云龙</content>
+        <content type="限制">马龙</content>
+        <content type="限制">永平</content>
+        <content type="限制">富民</content>
+        <content type="限制">大关</content>
+        <content type="限制">澄江</content>
+        <content type="限制">华宁</content>
+        <content type="限制">马关</content>
+        <content type="限制">江城</content>
+        <content type="限制">威信</content>
+        <content type="限制">开远</content>
+        <content type="限制">普洱</content>
+        <content type="限制">弥勒</content>
+        <content type="限制">红河</content>
+        <content type="限制">安宁</content>
+        <content type="限制">大姚</content>
+        <content type="限制">永仁</content>
+        <content type="限制">大理</content>
+        <content type="限制">个旧</content>
+        <content type="限制">丽江</content>
+        <content type="限制">易门</content>
+        <content type="限制">永胜</content>
+        <content type="限制">建水</content>
+        <content type="限制">峨山</content>
+        <content type="限制">元阳</content>
+        <content type="限制">通海</content>
+        <content type="限制">丘北</content>
+        <content type="限制">元江</content>
+        <content type="限制">罗平</content>
+        <content type="限制">姚安</content>
+      </title>
+    </attribute>
+  </province>  
+  <province name="北京"> 
+    <attribute name="高速"> 
+      <title> 
+        <content type="内容">京广高速</content>  
+        <content type="限制">北京</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">京石高速</content>  
+        <content type="限制">北京</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">京津塘高速</content>  
+        <content type="限制">北京</content>  
+        <content type="限制">空</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">京沪高速</content>  
+        <content type="限制">北京</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">京沈高速</content>  
+        <content type="限制">北京</content>  
+        <content type="限制">空</content> 
+      </title> 
+    </attribute>  
+    <attribute name="铁路"> 
+      <title> 
+        <content type="内容">京石</content>  
+        <content type="限制">北京</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">京哈</content>  
+        <content type="限制">北京</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">京沪</content>  
+        <content type="限制">北京</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">京广</content>  
+        <content type="限制">北京</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">京汉</content>  
+        <content type="限制">北京</content>  
+        <content type="限制">空</content> 
+      </title> 
+    </attribute>  
+    <attribute name="大学"> 
+      <title> 
+        <content type="内容">北理工</content>  
+        <content type="限制">北京</content> 
+      </title>  
+      <title> 
+        <content type="内容">北邮</content>  
+        <content type="限制">北京</content> 
+      </title>  
+      <title> 
+        <content type="内容">北大</content>  
+        <content type="限制">北京</content> 
+      </title>  
+      <title> 
+        <content type="内容">北林</content>  
+        <content type="限制">北京</content> 
+      </title>  
+      <title> 
+        <content type="内容">北航</content>  
+        <content type="限制">北京</content> 
+      </title>  
+      <title> 
+        <content type="内容">北科大</content>  
+        <content type="限制">北京</content> 
+      </title>  
+      <title> 
+        <content type="内容">北师大</content>  
+        <content type="限制">北京</content> 
+      </title> 
+    </attribute>  
+    <attribute name="前限制"/>  
+    <attribute name="后限制"/>  
+    <attribute name="上下文限制"> 
+      <title> 
+        <content type="内容">北京|丰台</content>  
+        <content type="限制">东城</content>  
+        <content type="限制">西城</content>  
+        <content type="限制">朝阳</content> 
+      </title> 
+    </attribute> 
+  </province>  
+  <province name="山东"> 
+    <attribute name="高速"> 
+      <title> 
+        <content type="内容">滨德高速</content>  
+        <content type="限制">滨州</content>  
+        <content type="限制">德州</content> 
+      </title>  
+      <title> 
+        <content type="内容">荣乌高速</content>  
+        <content type="限制">荣成</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">龙青高速</content>  
+        <content type="限制">龙口</content>  
+        <content type="限制">青岛</content> 
+      </title>  
+      <title> 
+        <content type="内容">日兰高速</content>  
+        <content type="限制">日照</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">潍烟高速</content>  
+        <content type="限制">潍坊</content>  
+        <content type="限制">烟台</content> 
+      </title>  
+      <title> 
+        <content type="内容">烟威高速</content>  
+        <content type="限制">烟台</content>  
+        <content type="限制">威海</content> 
+      </title>  
+      <title> 
+        <content type="内容">济青高速</content>  
+        <content type="限制">济南</content>  
+        <content type="限制">青岛</content> 
+      </title>  
+      <title> 
+        <content type="内容">济聊高速</content>  
+        <content type="限制">济南</content>  
+        <content type="限制">聊城</content> 
+      </title>  
+      <title> 
+        <content type="内容">青银高速</content>  
+        <content type="限制">青岛</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">青龙高速</content>  
+        <content type="限制">青岛</content>  
+        <content type="限制">龙口</content> 
+      </title>  
+      <title> 
+        <content type="内容">青兰高速</content>  
+        <content type="限制">青岛</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">青威高速</content>  
+        <content type="限制">青岛</content>  
+        <content type="限制">威海</content> 
+      </title>  
+      <title> 
+        <content type="内容">青新高速</content>  
+        <content type="限制">青岛</content>  
+        <content type="限制">空</content> 
+      </title> 
+    </attribute>  
+    <attribute name="铁路"> 
+      <title> 
+        <content type="内容">黄大</content>  
+        <content type="限制">黄岛</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">青荣</content>  
+        <content type="限制">青岛</content>  
+        <content type="限制">荣城</content> 
+      </title>  
+      <title> 
+        <content type="内容">龙烟</content>  
+        <content type="限制">龙口</content>  
+        <content type="限制">烟台</content> 
+      </title>  
+      <title> 
+        <content type="内容">青临</content>  
+        <content type="限制">青岛</content>  
+        <content type="限制">临沂</content> 
+      </title>  
+      <title> 
+        <content type="内容">枣临</content>  
+        <content type="限制">枣庄</content>  
+        <content type="限制">临沂</content> 
+      </title>  
+      <title> 
+        <content type="内容">德龙</content>  
+        <content type="限制">德州</content>  
+        <content type="限制">龙口</content> 
+      </title>  
+      <title> 
+        <content type="内容">黄日</content>  
+        <content type="限制">黄岛</content>  
+        <content type="限制">日照</content> 
+      </title>  
+      <title> 
+        <content type="内容">济青</content>  
+        <content type="限制">济南</content>  
+        <content type="限制">青岛</content> 
+      </title>  
+      <title> 
+        <content type="内容">大莱龙</content>  
+        <content type="限制">空</content>  
+        <content type="限制">莱州</content>  
+        <content type="限制">龙口</content> 
+      </title>  
+      <title> 
+        <content type="内容">邯济</content>  
+        <content type="限制">空</content>  
+        <content type="限制">济南</content> 
+      </title>  
+      <title> 
+        <content type="内容">菏兖日</content>  
+        <content type="限制">菏泽</content>  
+        <content type="限制">兖州</content>  
+        <content type="限制">日照</content> 
+      </title>  
+      <title> 
+        <content type="内容">东平</content>  
+        <content type="限制">东营</content>  
+        <content type="限制">平邑</content> 
+      </title> 
+    </attribute>  
+    <attribute name="大学"> 
+      <title> 
+        <content type="内容">青大</content>  
+        <content type="限制">青岛</content> 
+      </title> 
+    </attribute>  
+    <attribute name="前限制"> 
+      <title> 
+        <content type="内容">日照</content>  
+        <content type="限制">生</content>  
+        <content type="限制">每</content>  
+        <content type="限制">昔</content> 
+      </title>  
+      <title> 
+        <content type="内容">青岛</content>  
+        <content type="限制">浆</content> 
+      </title>  
+      <title> 
+        <content type="内容">河口</content>  
+        <content type="限制">老</content>  
+        <content type="限制">沙</content>  
+        <content type="限制">梅</content> 
+      </title>  
+      <title> 
+        <content type="内容">陵县</content>  
+        <content type="限制">黄</content>  
+        <content type="限制">高</content> 
+      </title>  
+      <title> 
+        <content type="内容">河口区</content>  
+        <content type="限制">老</content>  
+        <content type="限制">沙</content>  
+        <content type="限制">梅</content> 
+      </title>  
+      <title> 
+        <content type="内容">成武</content>  
+        <content type="限制">已</content>  
+        <content type="限制">变</content> 
+      </title> 
+    </attribute>  
+    <attribute name="后限制"> 
+      <title> 
+        <content type="内容">日照</content>  
+        <content type="限制">充足</content>  
+        <content type="限制">香炉</content>  
+        <content type="限制">片</content> 
+      </title>  
+      <title> 
+        <content type="内容">惠民</content>  
+        <content type="限制">市</content>  
+        <content type="限制">生</content>  
+        <content type="限制">补贴</content>  
+        <content type="限制">政策</content> 
+      </title>  
+      <title> 
+        <content type="内容">东平</content>  
+        <content type="限制">价</content> 
+      </title>  
+      <title> 
+        <content type="内容">河口</content>  
+        <content type="限制">市</content> 
+      </title>  
+      <title> 
+        <content type="内容">文山</content>  
+        <content type="限制">会海</content> 
+      </title> 
+    </attribute>  
+    <attribute name="上下文限制"> 
+      <title> 
+        <content type="内容">济南|青岛|淄博|枣庄|东营|烟台|潍坊|威海|济宁|泰安|日照|莱芜|临沂|德州|聊城|滨州|菏泽</content>  
+        <content type="限制">天桥</content>  
+        <content type="限制">市南</content>  
+        <content type="限制">市北</content>  
+        <content type="限制">四方</content>  
+        <content type="限制">市中</content>  
+        <content type="限制">市中区</content>  
+        <content type="限制">河口</content>  
+        <content type="限制">鱼台</content>  
+        <content type="限制">钢城</content>  
+        <content type="限制">河东</content>  
+        <content type="限制">平原</content>  
+        <content type="限制">栖霞</content> 
+      </title> 
+    </attribute> 
+  </province>  
+  <province name="湖北"> 
+    <attribute name="高速"> 
+      <title> 
+        <content type="内容">郧房高速</content>  
+        <content type="限制">郧县</content>  
+        <content type="限制">房县</content> 
+      </title>  
+      <title> 
+        <content type="内容">黄小高速</content>  
+        <content type="限制">黄梅</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">孝洪高速</content>  
+        <content type="限制">孝昌</content>  
+        <content type="限制">洪湖</content> 
+      </title>  
+      <title> 
+        <content type="内容">汉宜高速</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">宜昌</content> 
+      </title>  
+      <title> 
+        <content type="内容">武监高速</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">监利</content> 
+      </title>  
+      <title> 
+        <content type="内容">通界高速</content>  
+        <content type="限制">通山</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">麻竹高速</content>  
+        <content type="限制">麻城</content>  
+        <content type="限制">竹溪</content> 
+      </title>  
+      <title> 
+        <content type="内容">岱黄高速</content>  
+        <content type="限制">空</content>  
+        <content type="限制">黄陂</content> 
+      </title>  
+      <title> 
+        <content type="内容">武英高速</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">英山</content> 
+      </title>  
+      <title> 
+        <content type="内容">汉孝高速</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">孝南</content> 
+      </title>  
+      <title> 
+        <content type="内容">武嘉高速</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">嘉鱼</content> 
+      </title>  
+      <title> 
+        <content type="内容">东掇高速</content>  
+        <content type="限制">东宝</content>  
+        <content type="限制">掇刀</content> 
+      </title>  
+      <title> 
+        <content type="内容">武孝高速</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">孝感</content> 
+      </title>  
+      <title> 
+        <content type="内容">蕲嘉高速</content>  
+        <content type="限制">蕲春</content>  
+        <content type="限制">嘉鱼</content> 
+      </title>  
+      <title> 
+        <content type="内容">老石高速</content>  
+        <content type="限制">老河口</content>  
+        <content type="限制">石首</content> 
+      </title>  
+      <title> 
+        <content type="内容">武鄂高速</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">鄂州</content> 
+      </title>  
+      <title> 
+        <content type="内容">武麻高速</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">麻城</content> 
+      </title>  
+      <title> 
+        <content type="内容">汉蔡高速</content>  
+        <content type="限制">汉阳</content>  
+        <content type="限制">蔡甸</content> 
+      </title>  
+      <title> 
+        <content type="内容">恩来高速</content>  
+        <content type="限制">恩施</content>  
+        <content type="限制">来凤</content> 
+      </title>  
+      <title> 
+        <content type="内容">随岳高速</content>  
+        <content type="限制">随州</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">十天高速</content>  
+        <content type="限制">十堰</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">咸通高速</content>  
+        <content type="限制">咸宁</content>  
+        <content type="限制">通山</content> 
+      </title>  
+      <title> 
+        <content type="内容">黄鄂高速</content>  
+        <content type="限制">黄冈</content>  
+        <content type="限制">鄂州</content> 
+      </title>  
+      <title> 
+        <content type="内容">宣黔高速</content>  
+        <content type="限制">宣恩</content>  
+        <content type="限制">黔江</content> 
+      </title> 
+    </attribute>  
+    <attribute name="铁路"> 
+      <title> 
+        <content type="内容">荆沙</content>  
+        <content type="限制">荆门</content>  
+        <content type="限制">沙市</content> 
+      </title>  
+      <title> 
+        <content type="内容">宜万</content>  
+        <content type="限制">宜昌</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">武麻</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">麻城</content> 
+      </title>  
+      <title> 
+        <content type="内容">武广</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">合武</content>  
+        <content type="限制">空</content>  
+        <content type="限制">武汉</content> 
+      </title>  
+      <title> 
+        <content type="内容">汉丹</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">丹江口</content> 
+      </title>  
+      <title> 
+        <content type="内容">石武</content>  
+        <content type="限制">空</content>  
+        <content type="限制">武汉</content> 
+      </title>  
+      <title> 
+        <content type="内容">沪汉蓉</content>  
+        <content type="限制">空</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">襄渝</content>  
+        <content type="限制">襄阳</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">安卫</content>  
+        <content type="限制">安陆</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">京汉</content>  
+        <content type="限制">空</content>  
+        <content type="限制">武汉</content> 
+      </title>  
+      <title> 
+        <content type="内容">汉宜</content>  
+        <content type="限制">武汉</content>  
+        <content type="限制">宜昌</content> 
+      </title> 
+    </attribute>  
+    <attribute name="大学"> 
+      <title> 
+        <content type="内容">武理工</content>  
+        <content type="限制">武汉</content> 
+      </title>  
+      <title> 
+        <content type="内容">武大</content>  
+        <content type="限制">武汉</content> 
+      </title>  
+      <title> 
+        <content type="内容">武科大</content>  
+        <content type="限制">武汉</content> 
+      </title> 
+    </attribute>  
+    <attribute name="前限制"> 
+      <title> 
+        <content type="内容">仙桃</content>  
+        <content type="限制">产</content> 
+      </title> 
+    </attribute>  
+    <attribute name="后限制"> 
+      <title> 
+        <content type="内容">公安</content>  
+        <content type="限制">局</content> 
+      </title>  
+      <title> 
+        <content type="内容">天门</content>  
+        <content type="限制">山</content> 
+      </title> 
+    </attribute>  
+    <attribute name="上下文限制"> 
+      <title> 
+        <content type="内容">湖北|武汉|襄阳</content>  
+        <content type="限制">|十堰</content>  
+        <content type="限制">|荆州|宜昌、荆门|鄂州|孝感|黄冈|咸宁|随州</content>  
+        <content type="限制">黄梅</content>  
+        <content type="限制">公安</content>  
+        <content type="限制">黄石</content>  
+        <content type="限制">仙桃</content>  
+        <content type="限制">天门</content> 
+      </title> 
+    </attribute> 
+  </province>  
+  <province name="河南"> 
+    <attribute name="高速"> 
+      <title> 
+        <content type="内容">兰南高速</content>  
+        <content type="限制">兰考</content>  
+        <content type="限制">南阳</content> 
+      </title>  
+      <title> 
+        <content type="内容">永登高速</content>  
+        <content type="限制">永城</content>  
+        <content type="限制">登封</content> 
+      </title>  
+      <title> 
+        <content type="内容">安南高速</content>  
+        <content type="限制">安阳</content>  
+        <content type="限制">南乐</content> 
+      </title>  
+      <title> 
+        <content type="内容">郑尧高速</content>  
+        <content type="限制">郑州</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">安林高速</content>  
+        <content type="限制">安阳</content>  
+        <content type="限制">林州</content> 
+      </title>  
+      <title> 
+        <content type="内容">郑少高速</content>  
+        <content type="限制">郑州</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">南林高速</content>  
+        <content type="限制">南乐</content>  
+        <content type="限制">林州</content> 
+      </title>  
+      <title> 
+        <content type="内容">商周高速</content>  
+        <content type="限制">商丘</content>  
+        <content type="限制">周口</content> 
+      </title>  
+      <title> 
+        <content type="内容">宁洛高速</content>  
+        <content type="限制">空</content>  
+        <content type="限制">洛阳</content> 
+      </title> 
+    </attribute>  
+    <attribute name="铁路"> 
+      <title> 
+        <content type="内容">郑开</content>  
+        <content type="限制">郑州</content>  
+        <content type="限制">开封</content> 
+      </title>  
+      <title> 
+        <content type="内容">郑渝</content>  
+        <content type="限制">郑州</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">郑焦</content>  
+        <content type="限制">郑州</content>  
+        <content type="限制">焦作</content> 
+      </title>  
+      <title> 
+        <content type="内容">焦柳</content>  
+        <content type="限制">焦作</content>  
+        <content type="限制">空</content> 
+      </title>  
+      <title> 
+        <content type="内容">汤台</content>  
+        <content type="限制">汤阴</content>  
+        <content type="限制">台前</content> 
+      </title>  
+      <title> 
+        <content type="内容">郑徐</content>  
+        <content type="限制">郑州</content>  
+        <content type="限制">空</content> 
+      </title> 
+    </attribute>  
+    <attribute name="大学"> 
+      <title> 
+        <content type="内容">郑大</content>  
+        <content type="限制">郑州</content> 
+      </title> 
+    </attribute>  
+    <attribute name="前限制"> 
+      <title> 
+        <content type="内容">中原</content>  
+        <content type="限制">鹿</content> 
+      </title> 
+    </attribute>  
+    <attribute name="后限制"> 
+      <title> 
+        <content type="内容">湖滨</content>  
+        <content type="限制">花园</content> 
+      </title>  
+      <title> 
+        <content type="内容">红旗</content>  
+        <content type="限制">汽车</content>  
+        <content type="限制">飘飘</content> 
+      </title>  
+      <title> 
+        <content type="内容">中原</content>  
+        <content type="限制">大地</content> 
+      </title>  
+      <title> 
+        <content type="内容">上街</content>  
+        <content type="限制">去</content> 
+      </title>  
+      <title> 
+        <content type="内容">吉利</content>  
+        <content type="限制">汽车</content> 
+      </title>  
+      <title> 
+        <content type="内容">新华</content>  
+        <content type="限制">社</content> 
+      </title>  
+      <title> 
+        <content type="内容">西工</content>  
+        <content type="限制">大</content> 
+      </title> 
+    </attribute>  
+    <attribute name="上下文限制"> 
+      <title> 
+        <content type="内容">郑州|洛阳|商丘|安阳|新乡|许昌|平顶山|信阳|南阳|开封|焦作|鹤壁|濮阳|周口|漯河|驻马店|三门峡|济源</content>  
+        <content type="限制">中原</content>  
+        <content type="限制">二七</content>  
+        <content type="限制">吉利</content>  
+        <content type="限制">民权</content>  
+        <content type="限制">卧龙</content>  
+        <content type="限制">湖滨</content> 
+      </title> 
+    </attribute> 
+  </province> 
+</node>
