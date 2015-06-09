@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="utf8"?>
+<root>
+	<eventAdd name="公共事件" id="-1">
+		<concept name="违法违纪">盗窃 劫持 虚开发票 施暴 涉[罪案黄赌毒] 抗法(?!国) 围殴 纵火 (不[按依遵]照?|违[反背])(法(?!国)|(法定)?程序)</concept>
+		<concept name="人员负面">通奸 找小姐</concept>
+		<concept name="贪污">滥用职权 收受 以权换钱 贿赂 巨贪 贪庸 吃拿卡要</concept>
+		<concept name="差">(超级?|较)差 坏(的|很)?多</concept>
+		<concept name="一般描述">无所不用其极 胡扯 满目疮痍 做贼心虚 理亏 不公 撤职 被撤 下台(?!阶) 冒名 拖欠 嘲笑 讥笑 [看瞧]不起 蔑视 罢工 不满 骗 (无|不|没有)(最?(基本|起码)的)?(职业)?(道德|节操|下限|底线) 贬低 仇视 闹心 毁坏 [私擅](自|改|设|收) 跑路 割喉 命丧 走后门  冒领 套领 胡作非?为 (?&lt;!嬉戏)追打(?!嬉戏) 被打 打倒 害死 告[上进到]法[院庭] 违反 谴责 冷血 胡闹 拖欠 出卖 崩盘 逃避 偷逃 漏洞 拒不(解决)? 通奸 勾搭 窜通 强毁 被指 黑社会 黑帮 抢夺 欺害 揩油 明抢暗夺 虚与委蛇 擅做主张 残害 不容乐观 荒[诞唐谬] 丑闻 莫须有 (是非|黑白)不分  颠倒黑白 糊涂 无视 [欺坑害]民 吃人 丑闻 损毁 [未不]经审批 背信 只认钱 妨害 不正规 无证 强[逼行] 偏[袒私] 包庇 亵渎 践踏 玷污 纵容 草率 粗暴 徇私 凌驾 推拖 暴死 流于形式 走过场 玩弄 偏听偏信 置若罔闻 (?&lt;!答)应付 不严格 伙同 过错 以强凌弱 有恃无恐 后果严重 严重后果 无知 无法(正常)?使用 垮塌 扰乱 不符 被毁  盲目 违约 堂而皇之</concept>
+		<concept name="挪用">占用 ((?&lt;!学)霸|强|私|擅|侵|乱)(占|用) 截留 私自?买?卖 私分 骗[领取] 分文未见 [占据]为己[有用] 套取 围猎 被占 掏空 贱卖</concept>
+		<concept name="机关_公共">机关 公检法 办案单位 官方 (权力|公权)部门 政府 市委 纪检?委 国资委 法院 高院 中院 检察院 衙门 管局 管理局 人大 政协 党委 (建设|城建|城管|住建|房产|规划|水利|文化|交通|公安|司法|公路|财政|土地|矿产|国土|税务|国税|地税|林业|农业|粮食|环保|劳保|劳动保障|水[利务文]|统计|审计|广电|广播电视|旅游|卫生|工商|质监|质检|药监|监督|监察|教育|民政|人事)(局|厅|部门|机构) 村委 两委 海关 派出所 稽查队 军区 军委 部队 国企 分局 警方 公检法</concept>
+		<concept name="官员_公共">乡长 警员 州长 部长 协管员 人大代表 站长 警察 书记 官员 局长 主席 市长 公安 主任 村长 行政人员 省委常委 所长 州委常委 官方 办事人员 村支书 科员 当局 执法者 干警 统战部长 城管 公务员 参谋长 宣传部长 军官 政协委员 十八大代表 支委 交警 镇长 领导 组织部长 秘书长 县长 民兵 省长 警方 办事员 区长 干部 人大主席 军长 市委常委 公职人员 当政者 村官 法官 检察(长|官|人员) 委员 议员 厅长 院长 当权者 政委 党员 一把手 官二代 国家工作人员 县官 高官 幕僚 官吏 警官</concept>
+		<concept name="国企">中国?(石油|石化|海油|海运|移动|联通|电信) 南方航空</concept>
+		<concept name="失职">懒政 怠政 爱答不理 置之不理 责任(严重)?缺失 拖而不办 坐视不理 漠不关心 不予理睬 态度(模糊|冷漠|(很|较|特别)?差) 昏庸 打压百姓</concept>
+		<concept name="不合格">冒充 (不具备|无)[\s\S]{0,4}资质 违法 违规 质量[\s\S]{0,4}(糟|差|烂|坑|垃圾|不给力) [不未]能?(合格|过关|达标|符合要求) 未经[\s\S]{0,4}(允许|许可|检查|审批)</concept>
+		<concept name="滥用">滥[用发] 乱用 失控 任性 我行我素 放纵 妄为 私用 擅用 为己[有用] 顶风作案 乱作为 胡作非?为 为所欲为 灯下黑 莫须有 玩弄 非法拘禁 乱收费 监守自盗  一手遮天 为虎作伥 (违法|非法|违规|违章)(使用|配备) 垄断(?!一?案) 凌驾 超?越(管辖)?权</concept>
+		<concept name="伤亡">命丧 丧命 砸[死伤]</concept>
+		<concept name="遭暴行">被[打砍] 下跪 棒打 非法压制 刀砍 辱骂 被挑断四肢筋脉 遭打 围殴 暴行 喝农?药 跳楼 被挑断脚筋 被杀 殴打 围打 流血 被打 猝死 毒打 暴打 群殴 [打捅][死伤] 刀捅 割喉</concept>
+        <concept name="攻击">袭击 围殴 枪击 殴打 攻击</concept>
+        <!-- <concept name="党政负面">四风 (上班|办公|开会)(时间|期间)?(看电影|玩游戏|打牌|睡觉) 出入私人会所 收买 拉拢 红包 低价 低于成本 掮客 乏力</concept> -->
+	</eventAdd>
+	
+	<event name="群体事件" id="35">
+        <concept name="众多">众多 数千</concept>
+        <concept name="罢工">罢课 游行 罢工 罢市 示威 静坐</concept>
+        <concept name="集体">千人 (?&lt;!无)群体 (?&lt;!无)集体 全体 百人 万人 全城</concept>
+        <concept name="人员">矿工 村民</concept>
+        <concept name="事件">闹事 投诉 抗议 游行 散步 示威 静坐 控诉 集会</concept>
+        <concept name="工人">学生 商人 工人 员工</concept>
+        <template name="t291">集体 + 事件</template>
+        <template name="t291">众多 + 人员+事件</template>
+        <template name="t291">工人 + 罢工</template>
+    </event>
+	<eventAdd name="群体事件" id="35">
+		<concept name="群体事件单概念">群体事件 罢课 罢工 罢市 罢运 罢教 (?&lt;!旅|春)游行(?!程|动)</concept>
+		<concept name="规模">大量 全(部|村|镇|乡|市) 规模 史无前例</concept>
+		<concept name="爆发">爆发</concept>
+		<concept name="众多">([百千万]|[0-9]{2,})余?[人民名位]</concept>
+		<concept name="集体">群体 民众 群众 人群 人们 一起 一齐 聚集</concept>
+		<concept name="群体">
+			<child>规模 众多 爆发 集体</child>
+		</concept>
+		<concept name="事件">罢课 罢工 罢市 罢运 罢教 停运 维权 拦路 闹事 围堵 冲突</concept>
+		<concept name="人员">农民 受害人</concept>
+		<concept name="代指工人">出租车 公交车</concept>
+		<concept name="工人">司机 教师 老师</concept>
+		<concept name="所有工人">
+			<child>代指工人 工人</child>
+		</concept>
+		<template name="000">群体事件单概念</template>
+		<template name="000">事件(群体)</template>
+	</eventAdd>
+	
+	<event name="知识产权" id="23">
+	    <concept name="产权单概念">侵权</concept>
+	    <concept name="专利">展览权 放映权 专利 发表权 汇编权 信息网络传播权 著作权 署名权 专利申请文件 创造(?!了) 域名 摄制权 发行权 广播权 软件 表演权 复制权 发明(?!了) 商业秘密 翻译权 他人作品 专利文件 修改权 改编权 出租权 专利证书 知识产权 注册商标</concept>
+	    <concept name="发明">创造 发明 域名</concept>
+	    <concept name="侵犯">伪造 变造 擅自制造 泄露 假冒 侵犯 抢注 篡改 恶意注册 剽窃 歪曲</concept>
+	    <concept name="产权对象">
+	      <child>专利 机构</child>
+	      <words />
+	    </concept>
+	    <concept name="机构">发明协会 知识产权局 专利处 专利代办处 专利发展服务中心 专利事务所 知识产权研究会</concept>
+	    <template name="t247">发明(侵犯)</template>
+	    <template name="t247">产权单概念</template>
+	    <template name="t247">产权对象(一般负面)</template>
+    </event>
+	<eventAdd name="知识产权" id="23">
+		<concept name="产权单概念">盗版 盗链 盗图 盗文 盗段子 剽窃 抄袭 剽袭 非法出版物 非法下载</concept>
+		<concept name="侵犯">非法生产 模仿 剽窃 抄袭 剽袭  复制 冒用 盗版 窃取 仿造 山寨 翻版 仿冒 冒仿</concept>
+		<concept name="未经">未(取得|经过?)</concept>
+		<concept name="授权">授权 允许 许可</concept>
+		<!-- <concept name="专利">商标 标识 版权 产品 厂名 名牌 品牌 企业名</concept> -->
+		<concept name="发明">商标 标识 版权 产品 厂名 名牌 品牌 企业名 软件 网站  技术 剧本 下载</concept>
+		<concept name="专利发明">
+			<child>专利 发明</child>
+		</concept>
+		<concept name="机构">发明协会 知识产权局 专利处 专利代办处 专利发展服务中心 专利事务所 知识产权研究会</concept>
+		<template name="t247">专利(侵犯)</template>
+		<template name="t247">未经+专利发明+授权</template>
+		<template name="t247">未经+授权+专利发明</template>
+	</eventAdd>
+
+	<event name="面子工程" id="43">
+        <concept name="好大喜功">腐败路 面子工程 形象工程 半吊子工程 大肆建设 (?&lt;!查办|反|防止|预防|举报|打击|不|严打|严查|严厉查处|不搞)好大喜功 猫盖屎工程</concept>
+        <concept name="物品">大楼 办公用品 房子 车 办公设施 楼房 建筑 办公楼</concept>
+        <concept name="机关">建设厅 体育局 残联机构 科技厅 教育局 政法委 督查组 水利厅 县人大 文化系统 邮局 卫生局 文化厅 路政大队 监察局 环保局 交警队 法院(?!认定|根据|以|认为) 民族事务委员会 土地局 信息产业厅 劳动保障厅 派出所 市委 国务院 治理单位 住建厅 广电局 边防总队 民政局 国资委 政府 银行 邮政 司法厅 交通委 市人大 纪委监察 广播电视局 党支部 旅游局 教育厅 监察厅 财政厅 大队 省委 公安局(?!获悉) 统计局 商务局 村支部 民政厅 检察机关 文化局 交通局 党委 发改委 管理局 信访局 人事厅 农业局 公检法司 卫生厅 药监局 部门 机场 审计局 林业局 新闻出版局 村委会 国土局 人事局 工商局 林业厅 文物局 交通厅 考试中心 环境保护局 财政局 园林局 审计厅 工业促进局 水利局 司法局 国土资源厅 运政所 安全厅 农业厅 质量检测中心 检察院</concept>
+        <concept name="气派">高档 蛀虫 气派 耗资惊人 铺张浪费 豪华 奢华 奢侈 大气磅礴 气势磅礴 壮观 超出标准 耗巨资</concept>
+        <concept name="官员">乡长 警员 州长 协管员 人大代表 站长 警察 书记 官员 局长 主席 市长 公安 边防总队 主任 村长 行政人员 省委常委 所长 州委常委 官方 办事人员 村支书 科员 当局 执法者 干警 统战部长 城管 公务员 参谋长 宣传部长 军官 政协委员 十八大代表 支委 交警 镇长 领导 组织部长 秘书长 县长 民兵 省长 警方 办事员 区长 干部 人大主席 军长 市委常委 公职人员 当政者 村官</concept>
+        <template name="t252">机关 + 物品 + 气派</template>
+        <template name="t251">好大喜功</template>
+        <template name="t253">官员 + 气派</template>
+        <template name="t252">气派 + 物品 + 机关</template>
+	</event>	
+	<eventAdd name="面子工程" id="43">
+		<concept name="好大喜功">(虚假|表面)政绩 豪华办公大?楼 封门迎检 政绩工程 追求政绩</concept>
+		<concept name="机关物品">办公楼 办公用房 公车</concept>
+		<concept name="机关">机关 纪检?委 (权力|公权)部门 衙门 管局 (建设|城建|城管|住建|房产|规划|水利|文化|交通|公安|司法|公路|财政|土地|矿产|国土|税务|国税|地税|林业|农业|粮食|环保|劳保|劳动保障|水利|水务|统计|审计|广电|广播电视|旅游|卫生|监督|教育|民政)[局厅]</concept>
+		<concept name="官员">法官 委员 议员 厅长 部长 院长 当权者</concept>
+		<concept name="政绩">政绩 迎检 检查 巡视 巡查 慰问 视察 验收</concept>
+		<concept name="作秀">作秀 表面文章 形式主义 走过场 做样子 搞形式 假大空 华而不实</concept>
+		<concept name="气派">名贵 奢靡 阔气 排场 牛气 华而不实  炫富 大兴土木 排场 不顾财力 铺张浪费 大操大办</concept>
+		<template name="t251">政绩(作秀)</template>
+		<template name="t251">官员(作秀)</template>
+		<template name="t251">机关(作秀)</template>
+		<template name="t251">气派+官员</template>
+		<template name="t254">气派(机关)</template>
+		<template name="t251">机关物品(气派)</template>
+	</eventAdd>
+
+	<event name="公权滥用" id="33">
+      <concept name="选举">选票 数据 选举 项目 资产 投标 人事 经济权 招标 招投标</concept>
+      <concept name="干涉">操纵 操控 干涉</concept>
+      <concept name="黑">黑暗 黑幕 幌子</concept>
+      <concept name="公车私用">滥用职权 (?&lt;!禁止|严禁)公车私用</concept>
+      <template name="t241">选举 + 黑</template>
+      <template name="t241">干涉+ 选举</template>
+      <template name="t241">公车私用</template>
+    </event>
+	<eventAdd name="公权滥用" id="33">
+		<concept name="公车私用">私自?驾驶?公车 滥用(公权|权利) 滥权 超?越(管辖)?权 仗权 以[公权案]谋私 损公肥私 贿选 操作选举 选举贿票 贿赂选民 官商勾结 利用[\s\S]{0,4}(职权|公权|权力|职务) 权[钱色权]交易 以权换钱 官官相护 以言代法 以权压法 以权欺人 徇[私情]枉法 徇私舞弊 假公济私 跑官要官 买官(?!方) 卖官(?!方) 攀附公权 知法犯法 执法犯法 公权私用 公[款费][\s\S]{0,4}(大?吃大?喝|聚餐|旅游|消费|购买|应酬|招待|宴请|请客|送礼|赠送|洗澡) 中饱私囊 任人唯亲 封官许愿 优亲厚友 滥发(福利|奖金|补助|住?房补|车补) [违非]法(行政|[立办]案|拘留) 渎职 贪赃枉法 突击提拔 刑讯逼供 带病提拔 压案 乱抓人</concept>
+		<concept name="公共资产">公款 公(务用?)?车 灾款 (国有|国家|集体|公共|财政)[\s\S]{0,4}(资产|资金|财产|[土用]地) 国资 补偿[款费] (扶贫|征地)[款钱费] 低保 扶贫(经费|物资|资金|项目) 救灾(经费|物资|资金|项目)</concept>
+		<concept name="公权">公权 职权 权力 职务</concept>
+		<concept name="公权部门">
+			<child>机关_公共 官员_公共 公权</child>
+		</concept>
+		<!-- <concept name="滥用">滥[用发] 乱用 失控 任性 放纵 妄为 私用 擅用 为己有 顶风作案 乱作为 胡作非?为 为所欲为 灯下黑 莫须有 玩弄 非法拘禁 乱收费 监守自盗  一手遮天 为虎作伥 (违法|非法|违规|违章)(使用|配备) 垄断 凌驾</concept> -->
+		<concept name="干涉">(违法|非法|违规|违章)操作 干预 插[手足] 庇护 包庇 袒护 串谋 保护伞 靠山 后台 强盗式  野蛮 暴力</concept>
+		<concept name="选举">唱票 合同 换届 改选 办案 案件 案情 假案 冤案 证据 判决 司法 裁判 审判 执法 受案 拘留</concept>
+		<concept name="违法用权">违法 违规 枉法</concept>
+    	<template name="000">违法用权{2}选举</template>
+		<template name="t241">公共资产(挪用)</template>
+		<template name="t241">公权(滥用)</template>
+		<template name="t254">公权部门(干涉)</template>
+		<template name="t255">公权部门(滥用)</template>
+	</eventAdd>
+
+	<event name="民政" id="4">
+      <concept name="民政对象">
+        <child>场所 活动 机构</child>
+        <words />
+      </concept>
+      <concept name="民政负面1">
+        <child>不正当 一般描述 贪污 没保障 违法违纪 黑 不合格 素质差 失职 欺骗 差</child>
+        <words />
+      </concept>
+      <concept name="民政负面2">
+        <child>不正当 一般描述 伤亡 没保障 拥堵 人员负面 黑 不合格 素质差 欺骗 差</child>
+        <words />
+      </concept>
+      <concept name="机构负面">丧心病狂 龟孙子 漠视生命 蛇蝎</concept>
+      <concept name="伤亡">致病 耳聋 麻痹 烫伤 跌伤 烧伤 颅内出血 遇难 遇难(?!者) 截肢 受伤 窒息 伤亡 撞伤 身故 被埋 失踪 残废 中毒 身亡 摔伤 骨折 致命 轻伤 便血 碾死 畸形 救治 淹溺 痉挛 压伤 烧死 伤残 撞死 被困 致死 死伤 咳血 颅外伤 死亡 致残 损坏 被炸 触电 昏迷 灼烫 打伤 轧死 伤害 命丧 (?&lt;!不)致癌 压死 重伤 生命危险 下落不明</concept>
+      <concept name="民政单概念">套领低保 假低保 诈捐 虐待孤儿 人情保 赖保 贩卖尸体 低保耗子 关系保 出售尸体 骗保 (?&lt;!防止)低保作弊 盗贩尸体 低保门 贩卖孤儿 卖婴儿</concept>
+      <concept name="挪用">私吞 挪移 克扣 私用 骗取 骗领 去向不明 偷用 挪用 侵占 侵夺 截留 贪污 盗用 偷盗 挤占 侵吞 窃用 滥用 盗窃 偷窃 掠夺 私分</concept>
+      <concept name="灾款">灾款 善款 救灾款物 安家费 恤金 救济金 救济费 捐款 救济款 涉灾款物 涉灾物资 低保金</concept>
+      <concept name="活动">城市低保 老龄工作 社会救助 伤残评定 军休安置 救助 济困 接收安置 婚姻登记 社会工作 社会福利 殡葬管理 优待抚恤 助残 救灾 退伍安置 救孤 慈善事业 扶老 社区建设 救济</concept>
+      <concept name="场所">救助处 救助站 地名档案室 老人院 军休中心 老年服务中心 老年乐园 敬老院 婚姻登记处 敬老山庄 老年社区 救灾中心 老年护养院 福利彩票发行中心 托老机构 养老服务中心 荣军服务中心 优抚处 托老所 老年公寓 救灾处 尊长园 社会事务服务中心</concept>
+      <concept name="机构">民政厅 孤儿院 儿慈会 民政局 养老院 殡仪馆 慈善总会 光彩事业促进会 残疾人联合会 儿童会 红十字会 残联 民政部门 福利院 殡葬馆 公益机构 民政 民政学校 火葬场 休养院 基金会 慈善机构 救助安置管理局</concept>
+      <concept name="人员">孤幼 跛子 低保家庭 流浪童 军队离退休干部 孤儿 转业士兵 军烈属 退役士官 孤女 孤子 聋耳人 哑巴 残障人士 瞎子 退伍军人 流浪孩子 聋哑人 聋子 老人 流浪汉 烈士 伤残军人 灾民 流浪少年 军休人员 老年人 盲人 复员干部 残废 退役义务兵 跛脚 转业士官 瘸子 伤残士兵 弃儿 孤孩 孤童 流浪人员 低保户 哑子 流浪儿童 退役士兵 残疾人 瘸脚</concept>
+      <template name="t239">人员(民政负面2)</template>
+      <template name="t239">民政单概念</template>
+      <template name="t239">民政对象(民政负面1)</template>
+      <template name="t239">机构(机构负面)</template>
+      <template name="t239">挪用(灾款)</template>
+    </event>
+	<eventAdd name="民政" id="4">
+		<concept name="民政单概念">拐卖</concept>
+		<concept name="机构">扶贫办</concept>
+		<concept name="人员">弃婴 听障 失聪</concept>
+		<concept name="灾款">扶贫[款钱费] 低保 扶贫(经费|物资|资金|项目) 救灾(经费|物资|资金|项目)</concept>
+		<concept name="挪用">不明 不清楚 不发 没吃上 吃不上 有名无实</concept>
+		<concept name="违规">不符合 违规 违法</concept>
+		<template name="000">灾款(违规)</template>
+	</eventAdd>	
+
+	<event name="民委" id="2">
+      <concept name="宗教">道教 佛教 道门 教派 佛门 耶稣教 宗教 基督教 天主教 清真教 伊斯兰教</concept>
+      <concept name="机构">民族委员会 宗教事务局 民族事务委员会 民宗委 宗教委员会 宗教局 宗教事务委员会 (?&lt;!居)民委</concept>
+      <concept name="民族">白族 切糕族 哈萨克族 塔塔尔族 (?&lt;!中华)民族(?!乐器|风|大学|资产|语言|服饰) 高山族 鄂温克族 珞巴族 朝鲜族 汉民 汉人 黎族 京族 土家族 切糕党 哈尼族 普米族 畲族 侗族 少数民族 鄂伦春族 俄罗斯族 回民 柯尔克孜族 切糕人 布依族 独龙族 怒族 撒拉族 满族 水族 基诺族 达翰尔族 纳西族 维吾尔族 塔吉克族 卖刀人 门巴族 拉祜族 藏族 蒙古人 阿昌族 景颇族 东乡族 汉族 傈傈族 郝哲族 清真 彝族 羌族 仫佬族 保安族 壮族 布朗族 毛南族 回族 佤族 锡伯族 傣族 苗族 蒙古族 德昂族 乌孜别克族 仡佬族 土族 新疆人 裕固族 瑶族</concept>
+      <concept name="人员">教徒 信众 僧人 大主教 长老(?!师) 和尚 牧师 修女 施主 老衲 佛门子弟 高僧 传教士 神职人员 教士 喇嘛 禅师 住持 执事 师太 沙弥 法师 护法 香客 基督徒 教皇 僧侣 哈里发 神甫 教职人员 老僧 僧徒 师姑 佛徒 僧尼 信徒 宗师 道人 善男信女 道长 阿訇 出家人 活佛 女尼 方丈 使徒 菩萨 神父 大师(?!生) 宗徒 修士 僧俗 罗汉 门徒 司铎 红衣主教 尼姑 穆斯林 道士</concept>
+      <concept name="寺庙">少林寺</concept>
+      <concept name="欺负">看不起 斗殴 排挤 打人 打架 任人宰割 拳打脚踢 打群架 歧视 殴打 欺压 痛打 欺负 瞧不起 毒打 侮辱 打嘴巴 打耳光 打死</concept>
+      <concept name="活动">拜佛 法会 拜菩萨 高香 拜神 拜仙 庙祝 算命 看风水 开光大典 功德 拜财神 禅会 (?&lt;!执)法事(?!实|件) 庙会 烧香 香火钱 求签 上香 供奉 敬佛 进香 供灯 拈香 敬香 数罗汉 看相 撞钟 祈福 解签</concept>
+      <concept name="场所">禅房 修道院 佛龛 道观 土地庙 珈蓝 禅堂 庙宇 关帝庙 禅林 佛教 兰若寺 名刹 塔院 武庙 教堂 隐修院 寺院 清真寺 寺庙 尼姑庵 宝刹 佛堂 佛门 佛寺 文庙 庵堂 禅寺 堂观 孔庙</concept>
+      <concept name="民委对象">
+        <child>场所 宗教 民族</child>
+        <words />
+      </concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="不公平">有待 特权 不公平 自贱 低人一等 不平等</concept>
+      <concept name="丑闻">丑闻 摇钱树 唐僧肉</concept>
+      <concept name="民委负面2">
+        <child>不适 污染 不正当 欺负 一般描述 贪污 没保障 黑 不合格 素质差 欺骗 差</child>
+        <words />
+      </concept>
+      <concept name="民委负面3">
+        <child>没保障 黑 素质差 欺骗 差</child>
+        <words />
+      </concept>
+      <concept name="民委单概念">民族隔阂 有损佛门 宗教隔阂 有辱佛门</concept>
+      <concept name="民委负面1">
+        <child>不正当 一般描述 贪污 违法违纪 黑 不合格 素质差 失职 欺骗 差</child>
+        <words />
+      </concept>
+      <template name="t348">人员(人员负面1)</template>
+      <template name="t316">活动(民委负面3)</template>
+      <template name="t316">寺庙(丑闻)</template>
+      <template name="t316">民委单概念</template>
+      <template name="t316">民族(不公平)</template>
+      <template name="t316">机构(民委负面1)</template>
+      <template name="t316">民委对象(民委负面2)</template>
+    </event>
+	<eventAdd name="民委" id="2">
+		<concept name="民委单概念">辱教 辱圣</concept>
+		<concept name="邪教">邪教 全能神 </concept>
+		<concept name="民族">维族 种族 犹太 壮人 回人 维人 壮傣 汉回 回汉 回藏</concept>
+		<concept name="宗教">教派 穆斯林 伊斯兰</concept>
+		<concept name="冲突">大打出手 叛乱 争 挑拨 纠纷 冲突 矛盾 骚乱 问题</concept>
+		<concept name="骗人">骗人 蛊惑 迷惑 极端 鼓吹</concept>
+		<concept name="人员负面1">
+        	<child>欺负</child>
+      	</concept>
+      	<concept name="民委负面2">
+        	<child>冲突 人员负面 骗人 违法违纪</child>
+      	</concept>
+		<concept name="欺负">反(?!应|映|复|面|正|之|正) 违背 冒犯 亵渎 挑衅 蔑视 藐视 讥笑 嘲笑 排斥 排除 屠杀 大打出手  不友好 侵略 迫害 不尊敬 不尊重 消灭 辱骂 仇视 仇恨 违反 违犯 压迫 剥削 驱逐 杀戮 敌视 敌意 白痴 劣等 贬低 分裂 撕裂</concept>
+		<concept name="民委对象">
+			<child>邪教</child>
+		</concept>
+	</eventAdd>	
+
+
+	<event name="医疗" id="30">
+      <concept name="场所">监护室 化验室 病案室 住院楼 急诊室 住院大楼 手术室 急诊楼 急诊大楼</concept>
+      <concept name="活动">化验 抽血 献血 医保 切除 治疗 放疗 穿刺 手术 移植 理疗 验血 医疗保险 化疗 护理 体检</concept>
+      <concept name="医疗单概念">医疗事故 医患纠纷 医患矛盾 医患冲突 假药 医疗纠纷 医闹 治死</concept>
+      <concept name="医疗交通">急救车 救护车 120</concept>
+      <concept name="药品">针水 中成药 口服液 药物 药材 膏药 中药 西药 医疗器械 药品</concept>
+      <concept name="药房">制药公司 药业 药房 药铺 药厂 医药公司 药店</concept>
+      <concept name="药品负面">生虫 过期 劣质 发霉 假冒伪劣 长虫</concept>
+      <concept name="疫情">炭疽 非传染性疾病 流感 疫病 乙脑 食品安全事故 血吸虫病 不明原因疾病 脊髓灰质炎 公共卫生事件 禽流感 狂犬病 瘟 脑炎 艾滋病 疫情 传染病 白血病 肝炎 鼠疫 寄生虫 霍乱 瘟疫 麻风病</concept>
+      <concept name="爆发">暴发 初现 感染 沾染 突发 袭来 蔓延 发生 流行 传播 发病率上升 死亡 加剧 出现 传染 肆虐 罹患</concept>
+      <concept name="卫生对象">
+        <child>场所 药房 活动 机构 人员</child>
+        <words />
+      </concept>
+      <concept name="医院负面">设备不齐全</concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="机构">眼科 住院部 超声诊断科 遗传咨询科 卫生院 疗养院 康复科 性病科 传染科 医学影像科 麻醉科 妇产科 放疗科 门诊 麻醉医学科 医疗 骨质疏松科 泌尿科 公共卫生与预防科 双相障碍科 骨科 中医科 功能检查科 产科 妇科 传染病科 药物依赖科 中医院 肿瘤科 护理科 心电图科 司法鉴定科 核医学科 病理科 营养科 药剂科 放射科 皮肤科 急诊科 康复医学科 口腔科 诊所 医院 高压氧科 病房 卫生监督所 耳鼻喉科 挂号处 计划生育科 精神科 外科 肝病科 艾滋病科 药房 传染重危科 气管科 疼痛科 理疗科 医技科室 儿科 针灸科 内科 男科</concept>
+      <concept name="人员">护理人员 医生 白衣天使 病例 院长 理疗师 医护 医师 病人 药剂师 医务人员 患者家属 军医 孕妇 病号 患属 患儿 患者 护士 化验师 药师 大夫</concept>
+      <template name="005">疫情(爆发)</template>
+      <template name="003">机构(医院负面)</template>
+      <template name="003">卫生对象(一般负面)</template>
+      <template name="004">药品(药品负面)</template>
+      <template name="003">医疗单概念</template>
+      <template name="t000">人员(人员负面1)</template>
+      <template name="003">医疗交通(肇事)</template>
+    </event>
+	<eventAdd name="医疗" id="30">
+		<concept name="机构">附院</concept>
+		<concept name="药房">药号</concept>
+		<concept name="药品">药 药品?价格?</concept>
+		<concept name="医院负面">火灾 起火 失火 发生大火</concept>
+		<concept name="药品负面">超标 重金属 虚高</concept>
+		<concept name="场所">卫生服务中心 病床 手术台</concept>
+		<concept name="活动">接种 急救 抢救(?!无效) 输血 麻醉  救治 就医 住院 输液 救护 整[容形] 行医</concept>
+		<concept name="医疗单概念">黑医 黑诊所 假病案 假病历 伪造病历 医托 救死(?!扶伤) 医死 整容事故</concept>
+		<concept name="人员">牙医 病员 病患 病历 医患</concept>
+		<concept name="疫情">病例 疟疾 登革热 黑死病</concept>
+		<concept name="爆发">飙升</concept>
+		<concept name="事故">死亡?(?!扶伤) 割喉 染艾滋 误诊 误判 乱诊 乱治 耽误 延误 拖延 错药 (乱|滥|胡|瞎|错|误|过度)([开用](药|大?处方))|诊|治|开 毁容</concept>
+		<concept name="交易">红包 交易</concept>
+		<concept name="医保">医保 医疗保险</concept>
+		<concept name="抽象疫情">病例 疫情 发病数</concept>
+		<concept name="上升">增多 上升</concept>
+		<concept name="人员负面1">
+			<child>粗心 交易</child>
+		</concept>
+		<template name="000">卫生对象(事故)</template>
+		<template name="000">卫生对象+滥用</template>
+		<template name="000">人员(遭暴行)</template>
+		<template name="000">人员(攻击)</template>
+		<template name="000">药品(不合格)</template>
+		<template name="000">医保(挪用)</template>
+		<template name="000">抽象疫情(上升)</template>
+	</eventAdd>
+
+	<event name="农业" id="14">
+      <concept name="农业物资">假农药 瘦肉精 有机磷 假化肥 假种子 假谷种 收割机 硝酸盐 氨基甲酸酯</concept>
+      <concept name="农产品">水稻 稻秧 转基因 小麦</concept>
+      <concept name="行政负面">铲倒 强占 毁掉 铲毁 强征 非法圈占 填埋 强行征收</concept>
+      <concept name="农产品负面">成灾 枯萎 枯死 非常严重 超标 瘪谷 污染 欠收 泛滥 绝收 严重 滥用 灾害 枯黄 绝产 毒死</concept>
+      <concept name="农业负面">
+        <child>行政负面 疾病害虫 农产品负面 药物负面</child>
+        <words />
+      </concept>
+      <concept name="农业对象">
+        <child>农业物资 农产品 农业生产对象</child>
+        <words />
+      </concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="人员">花农 牧民 农民(?!工)</concept>
+      <concept name="活动">收割 采摘 春耕 灌溉 浇灌 抗旱 播种</concept>
+      <concept name="机构">农药(商)?店 良种繁殖场 植保植检站 种羊场 农药鉴定所 减轻农民负担领导小组 农学会 祖代肉种鸡场 种鸡场 种子商店 种畜场 畜牧处 草山饲料处 兽医处 渔业处 种猪场 保山疫苗厂</concept>
+      <concept name="农业生产对象">耕地 畜牧场 屠宰场 麦田 农贸市场 养猪场 牛奶场 稻田 果树 养鸡场 养牛场 鱼塘 农产品批发市场 土壤 农村土地</concept>
+      <concept name="场所">畜牧场 养鸡场 农贸市场 养猪场 牛奶场 养牛场 鱼塘 屠宰厂 农产品批发市场</concept>
+      <concept name="疾病害虫">冻害 蝗虫 蓝耳病 干旱 口蹄疫 瘟疫</concept>
+      <concept name="药物负面">滥用 超标</concept>
+      <template name="t000">人员(人员负面1)</template>
+      <template name="t002">农业对象(农业负面)</template>
+    </event>
+	<eventAdd name="农业" id="14">
+		<concept name="农业概念">农业 惠农 助农 扶农 退耕还林</concept>
+		<concept name="农业物资">农机 农资 农药 化肥 饲料</concept>
+		<concept name="补助">(补助|补偿|保险|直补)?[款费钱款]</concept>
+		<concept name="农产品">粮食 大豆 玉米 大米 土豆 庄稼 (猪|牛|羊|鸡|鸭) 家禽 农牧?产品 作物</concept>
+		<concept name="农产品负面">(?&lt;!解|戒|排)毒(?!品|素|性) 病死 受灾</concept>
+		<concept name="农业生产对象">农[业田]?用?[田地] (承包|粮|良)田 养殖场 农场 牧场 渔场 鱼塘</concept>
+		<concept name="农业对象">
+        	<child>农业概念</child>
+      	</concept>
+		<concept name="人员">瓜农 菜农 兽医 养殖户 种植户 农场主 蜂农 奶农 村霸</concept>
+		<concept name="农村行政">村民 村长 村支书 村干部 村主任 村两?委 农业[局厅部] 畜牧局 合作社</concept>
+		<concept name="行政负面">强征 乱占  被[占抢] 被毁 毁坏 非法买卖 [私擅]自?圈 非法占 违法 非法</concept>
+		<concept name="农业负面">
+        	<child>挪用 不合格 黑</child>
+     	</concept>
+		<concept name="活动">养殖 种植</concept>
+		<concept name="农业单概念">假(农药|化肥|种子|谷种)</concept>
+		<template name="t000">农业单概念</template>
+		<template name="t000">农村行政(人员负面1)</template>
+		<template name="t002">[农业对象+补助](挪用)</template>
+	</eventAdd>
+
+	<event name="税务" id="5">
+      <concept name="活动负面">
+        <child>一般负面 活动</child>
+        <words />
+      </concept>
+      <concept name="税务单概念">巨额税案 地方税务局 税蓝 偷税 地税 漏税 税狗 抗税 欠税 拒缴</concept>
+      <concept name="活动">反避税 税改 税务稽查 公款 税务办理 免职 专管员 吃拿卡要 收税 发票 违纪 税源管理 规费征收 漏税 管理员 征税 态度 偷税 税务筹划 纳税 减免税 奖金 任命 收费 干部任免 公车 违规 服务 交税 缴税</concept>
+      <concept name="费用">税收 税金 税额 营业税 税费 税款 关税 印花税 房产税 流通税 契税 税负</concept>
+      <concept name="税务对象">
+        <child>地税 费用 活动 机构</child>
+        <words />
+      </concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="地税">纳税 税收 查税 地税 办税 交税 税务 缴税</concept>
+      <concept name="税务领导">王世俊 张勇 李国华 杨春华 张鹏飞 虎坤 张平 么红雯 杨立学 蒋维翔 李现东 李一丁 袁忠 管彦军 张小兵 周正皎 何立东 冯世刚 糜旭 聂昆林 康焰 杨昆 杨春龙 李华 黄跃初 周权 胡正刚 王翎睿 孙云红 梅宁</concept>
+      <concept name="人员">税务员 税务师 税务专管员 税务会计师 税收管理员 税务研究员 征收管理员 税务咨询师 税务稽查员</concept>
+      <concept name="机构">国税 规费征收管理中心 国际税务管理处 稽查局 税局 省局直属征收局 地税 税政处 征收管理处 收入规划处 税务 纳税服务处</concept>
+      <template name="003">税务单概念</template>
+      <template name="004">税务对象(一般负面)</template>
+      <template name="t348">人员(人员负面1)</template>
+    </event>
+    <eventAdd name="税务" id="5">
+    	<concept name="税法">税法</concept>
+    	<concept name="税务对象">
+	        <child>税法</child>
+     	</concept>
+    	<concept name="税务单概念">骗税 逃税 避税  假发票 过头税 双重征税 涉税违法 不开发票 不(上|交|缴)税</concept>
+    	<concept name="税务负面">虚开 规避 违反 拖延 (顶|代)替 替代 欠缴 滥用 多征 多收 (提前|延缓)征 乱收 偷漏 少(申报|缴纳?) (不|未)(按照?|符?合)(规定|时)</concept>
+    	<concept name="费用">个税 所得税 增值税 购置税 进口税 出口税 退税 房地产税 遗产税 发票 计税 税率</concept>
+    	<template name="004">税务对象(税务负面)</template>
+    	<!-- <concept name="地税">发票</concept> -->
+    </eventAdd>	
+	
+
+	<event name="安全监督" id="3">
+		<concept name="场所">仓库 铁路 地下室 工房 厂房 棚舍 运输航行 工厂 制造厂 窝点 发电厂 修理厂 厂子 工棚 扶梯 地铁 仓房 矿井 升降机 工业区 高架桥 电梯 作坊 棚子 流水线 储藏室 建筑 灰棚 工地 电热厂 发电站火电站 工场 坑口 采石场 核电站 矿场 库房 工区 工坊 仓禀 矿山 水电站 水运</concept>
+	    <concept name="危险物品">工件 钢瓶 毒气 甲烷 明火 滚石 溢油 煤尘 部件 特种设备 雷管 煤油 沥青 炸药 核物质 强酸 烟花爆竹 煤矿 切屑 锅炉 可燃固体 一氧化碳 自燃物 瓦斯 热源 (?&lt;!中)石油 火焰 高温物体 炉膛 弹药 零件 粉尘 液氧 乙炔 放射线 液氨 火源 氯气 天然气 火油 液氯 火药 火煤 爆炸气体 爆炸物 化学品 甲醇 液化气 氧气 煤气 脱钩 甲醛 油气 导热油 汽油 鞭炮 强碱 可燃气体 吊物 爆炸性气体 氨气</concept>
+	    <concept name="机构">安全监督局 生产监督局 安监局 安全生产委员会 安全生产监督管理局 安监会</concept>
+	    <concept name="人员">安监人员 安监员</concept>
+	    <concept name="安监单概念">工业中毒 淹溺事故 坍塌事故 核泄漏 核安全事故 安全事故 放炮事故 核事故 触电事故 中毒事故 冒顶事故 井下水灾 矿山事故 透水事故 爆炸事故 核污染 核辐射 片帮事故 井下火灾 灼烫事故 电梯事故 生产事故 爆破事故 窒息事故 土石塌方</concept>
+	    <concept name="事故">失事 塌陷 起火 中毒 倒塌 炸毁 坍塌 安全隐患 泄漏 冒顶 塌桥 失火 塌架 污染 窒息 垮塌 缺氧 塌方 爆炸 淹溺 崩塌 走电 坠落 事故 发火 触电</concept>
+	    <concept name="活动">开采 修盖 改造 安监 翻盖 兴修 修筑 翻修 动工 生产监督 非法载客 安全监督 加工 修路 下井 采矿 施工(?!期) 采挖 改建 开山 拆迁 翻造 修建 采石 挖矿 挖煤 冶金 采煤 动土</concept>
+	    <concept name="工具">铲运机 机械工具 机械设备 涡轮机 压路机 运输车 农用船舶 气轮机 挖机 掘土机 起重机 轧道机 农用车辆 工作设备 铲土机 汽轮机</concept>
+	    <concept name="生产安全对象1">
+	      <child>工具 场所 危险物品 活动</child>
+	      <words />
+	    </concept>
+	    <concept name="人员负面1">
+	      <child>一般负面 人员负面</child>
+	      <words />
+	    </concept>
+	    <concept name="生产安全负面">
+	      <child>伤亡 肇事 不合格 事故</child>
+	      <words />
+	    </concept>
+	    <concept name="瞒报">不报 (?&lt;!不)谎报 成摆设 纵容 (?&lt;!不)瞒报</concept>
+	    <template name="t348">机构(一般负面)</template>
+	    <template name="t350">安监单概念</template>
+	    <template name="t348">人员(人员负面1)</template>
+	    <template name="t348">生产安全对象1(瞒报)</template>
+	    <template name="t316">生产安全对象1(生产安全负面)</template>
+	</event>
+	<eventAdd name="安全监督" id="3">
+		<concept name="安监单概念">非法[\s\S]{2,5}烟花爆竹 踩踏事件 黑煤矿 井喷事故 安全责任事故 闪燃事故</concept>
+		<concept name="场所">加?[油气][站厂] 电厂 加?工场 供应站 货梯 煤田 能源站 制品厂 (工业|化工)?园区 车间</concept>
+		<concept name="危险物品">燃气 (?&lt;!下水)管道 PX 化学气体 石化 [甲乙][烷烯炔] 储罐 (?&lt;!火光)电石(?!火光) 精制塔 脚手架 支撑架 变压器</concept>
+		<concept name="公共场所">商[场城] KTV (洗浴|桑拿)中心 客运站 车站 机场</concept>
+		<concept name="公共设施">广告牌</concept>
+		<concept name="事故">漏(煤气|电) 大火 火灾 井喷 出大?事 倾覆 闪燃 溢出 着火</concept>
+		<concept name="安全隐患">安全隐患 (违法|非法|违规|违章)操作</concept>
+		<concept name="生产安全负面">
+	      <child>安全隐患</child>
+	    </concept>
+		<concept name="活动">在建 生产 建造 开挖 制售 制造 操作 搭建 工程 项目</concept>
+		<concept name="瞒报">隐瞒 掩盖 虚报  (私自?|擅自?|偷)(开?挖|开?采|建|搭)</concept>
+		<concept name="私自">私自 擅自 偷偷 违法 非法 违规 违章</concept>
+		<concept name="工人">工人 矿工 作业人员</concept>
+		<template name="t348">公共场所(事故)</template>
+		<template name="t348">公共设施(事故)</template>
+		<template name="t348">[私自+活动](场所)</template>
+		<template name="t348">工人(伤亡)</template>
+	</eventAdd>
+
+	<event name="党政" id="32">
+      <concept name="职称">乡长 党组成员 科长 院长 常委 委员 村委 书记 负责人 局长 一把手 市长 领导 主任 组长 村长 司长 县长 省长 所长 干部 股长 处长 主管 厅长 纪检组长 巡视员 科员 村官 部长</concept>
+      <concept name="单概念">上访 体制内赚钱 狗官 数据造假</concept>
+      <concept name="机构">地税局 科技厅 保障厅 企业处 政法委 促进中心 计生委 民宗委 科学院 监测站 人事处 检查处 监督所 信息处 参事室 社科院 机关党办 研究院 法制办 领导小组 宣传处 协会 监管处 检测所 科技处 推广(总)?站 扶贫办 监管科 合作处 纪检委 综合中心 维稳办 财务处 监管部 管理处 干部处 政府 纪工委 有限责任公司 信息中心 管理站 培训学校 人事科 财务科 研究室 推广站 干部科 工作站 工委 审理处 辅导站 党委 管理局 发改委 经信委 干部学校 宣传部 执法总队 联络处 监督处 指挥部办公室 信息部 加工处 农科院 企业部 安全中心 鉴定站 人事部 工会 监察室 国防办 工商局 监察处 产业处 计划处 外事办公室 计财处 监理(总)?站 保卫处 外事处 计委 培训中心 防空办 发展中心 纪委 测绘局 服务中心 检测中心 财务部</concept>
+      <concept name="政府对象">
+        <child>职称 机构</child>
+        <words />
+      </concept>
+      <template name="t239">单概念</template>
+      <template name="t239">领导(一般负面)</template>
+      <template name="t286">政府对象(一般负面)</template>
+    </event>
+    <eventAdd name="党政" id="32">
+    	<concept name="政策">政策</concept>
+    	<concept name="单概念">压案 ([贪恶昏庸懒]|太平)官 恶[警吏] 违反党纪 (行政|执法)不作为 吏治腐败 暴力执法 官黑勾结 害民工程</concept>
+    	<concept name="党政负面">四风 (上班|办公|开会)(时间|期间)?(看电影|玩游戏|打牌|睡觉) 出入私人会所 收买 拉拢 红包 低价 低于成本 掮客 乏力</concept>
+    	<!-- <concept name="职称">公务员 秘书长 检察长 法官</concept> -->
+    	<concept name="政府对象">
+        	<child>机关_公共 官员_公共 政策</child>
+    	</concept>
+    	<!-- <concept name="无">无 缺乏 没有 缺少</concept> -->
+    	<template name="t239">领导(党政负面)</template>
+    	<template name="t239">官员_公共(人员负面)</template>
+      	<template name="t286">政府对象(党政负面)</template>
+      	<template name="t286">政府对象(滥用)</template>
+    </eventAdd>
+    
+    <event name="上访问题" id="36">
+        <concept name="事件1">事件</concept>
+        <concept name="人员">村主任 干部 民工 村长 群体 村支书 村官 农民 当事人</concept>
+        <concept name="上访">(?&lt;!无)上访</concept>
+        <concept name="阻碍">阻碍 刑拘 无人管 关押 培训 被逮捕 非法压制 拘留 受阻 遣返 迁户口 劫访 被虏 打击 无门 拦截 示众 被指敲诈 滋事 拘押 砸断 被打 被抓 精神病</concept>
+        <template name="t294">人员 + 上访</template>
+        <template name="t295">上访</template>
+        <template name="t292">上访 + 事件1</template>
+        <template name="t293">阻碍 + 上访</template>
+        <template name="t292">上访 + 阻碍</template>
+    </event>
+    <eventAdd name="上访问题" id="36">
+    	<concept name="上访">拦访 截访</concept>
+    </eventAdd>
+    
+    <event name="公安" id="12">
+      <concept name="公安单概念">流氓活动 抢劫 寻衅滋事 盗窃(?!罪) 嫖娼 轮奸 杀人 诱骗 嫖宿 强奸 暗娼 散布谣言 制造混乱 骗取 私刑 卖淫 煽动扰乱 逼供 偷渡 侮辱妇女 勒索 敲诈 结伙斗殴 窝藏 偷窃 谎报险情 歪曲事实</concept>
+      <concept name="活动">侦查 网侦 扫黄 审讯 破获 刑侦 侦破 打黑 经侦 抓捕</concept>
+      <concept name="场所">审查</concept>
+      <concept name="机构">公安局交通管理局 边防管理局 反恐怖工作总队 公安局 刑侦大队 治安总队 网络安全保卫总队 保卫处 禁毒总队 网监局 刑事侦查总队 出入境管理局 治安大队 网监大队 派出所 看守所 经济犯罪侦查总队 消防局 监所管理总队</concept>
+      <concept name="人员">岗警 未决犯 警员 交通警 痞子 流氓 虐待狂 门警 法警 现行犯 杀人犯 祸首 警察 死刑犯 嫌疑犯 歹徒 从犯 刑警 户籍警 路警 凶犯 抢劫犯 打手 惯窃 公安 黄牛 囚徒 骗子 主犯 嫌犯 走私贩 凶徒 囚犯 在押犯 特警 乘警 绑匪 水上警察 强奸犯 贪污犯 罪犯 武警 诈骗犯 拐子 刑事犯 扒手 片警 盗匪 城管 民事犯 惯贼 帮凶 盗贼 凶手 劫持犯 巡警 政治犯 毒犯 警长 同案犯 人犯 看守 惯偷 警方 要犯 同谋犯 纵火犯 人贩 逃犯 民警 惯匪 死囚 渎职犯 狱警 小偷</concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="公安对象">
+        <child>场所 活动 机构</child>
+        <words />
+      </concept>
+      <template name="003">公安对象(一般负面)</template>
+      <template name="003">公安单概念</template>
+      <template name="t348">人员(人员负面1)</template>
+    </event>
+    <eventAdd name="公安" id="12">
+    	<concept name="人员">警官</concept>
+    	<concept name="机构">警局 公安机关</concept>
+    	<concept name="公安单概念">偷盗 盗走 (?&lt;!账号)被盗(?!号) 诈骗 殴打 斗殴 殴斗 群殴 (传播|散布)淫秽 猥亵 性侵 故意伤害 劫持 绑架 行凶 枪杀 (制造?|贩卖?)毒品? 聚众赌博 走私 潜逃 非法捕猎 恶警 乱抓人 袭警 杀害 刑讯</concept>
+    </eventAdd>
+    
+    <event name="环境" id="27">
+      <concept name="大气">大气 臭氧 空气</concept>
+      <concept name="破坏">遭殃 破坏 砍伐 焚毁 容量锐减 侵占 乱伐 乱砍</concept>
+      <concept name="土地">土壤 农田 泥炭地 田地 土地</concept>
+      <concept name="贩卖">购买 拍卖 买卖 破坏 贩卖 走私 贩运 猎杀 捕食</concept>
+      <concept name="污染物">光化学烟雾 毒气 危险品 铬渣 灰霾 烟尘 颗粒物 有机氯农药 污染物 有害气体 二氧化碳 废水 二氧化硫 铬盐 (?&lt;!血)铅(?!球) 六价铬 金属 电子废品 多环芳烃 污泥 废弃物 毒水 一氧化碳 废物 酸雨 土壤酞酸酯 挥发性有机物 氮氧化物 废气 多晶硅 有害物质 粉尘 防雹弹</concept>
+      <concept name="森林">巨桉林 竹林 森林 树木 丰产林 原始林</concept>
+      <concept name="水体">河水 溪涧 沼泽 水系 海水 河渠 井水 自来水 江水 饮用水 水体 河沟 溪水 滩涂咸水 水厂 水源 湖水 苇塘 溪流 湖泊 小溪 泉水 河口 水流 饮水 水塘 河塘 水域 淡水 河流 地下水 湿地</concept>
+      <concept name="资源">环境 生态 资源</concept>
+      <concept name="环保对象1">
+        <child>机构</child>
+        <words />
+      </concept>
+      <concept name="人员">吸粪车 水罐车 清道夫 清洗车 吸污车 洒水车 扫路车 扫地车 垃圾车 清扫车 环卫工 保洁工人 市容监督员 环卫车 清洁工</concept>
+      <concept name="环保对象2">
+        <child>湖泊 大气 资源 森林 土地 污染物 水体</child>
+        <words />
+      </concept>
+      <concept name="机构">环境保护局 环保部门 环保厅 环保局</concept>
+      <concept name="野生动物">麝 穿山甲 长臂猿 蟒 栖息地 资源 野象 熊猴 滇金丝猴 野牛 小熊猫 白尾梢虹雉 印支虎 蜂猴 野生动物 野牛懒猴 绿孔雀 亚洲象 猕猴 犀鸟 灰叶猴</concept>
+      <concept name="环境单概念">河床增高 填湖 噪音 噪声 毁林开荒 围湖造田 气味刺鼻 刺鼻的气味 肆虐湖泊淤积 气味难闻 水污染 (?&lt;!制|造)毒工厂 围湖造地 挖山填湖 环境污染 水土流失(?!整治) 烧烤油烟 雾霾</concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="污染">污染(?!防治|治理|综合防治|综合治理|物) 浸害 薰 恶化 数量锐减 (?&lt;!遏制|打击)破坏 超标 乱伐 干扰 退化 乱砍</concept>
+      <concept name="环保对象3">
+        <child>资源 森林</child>
+        <words />
+      </concept>
+      <concept name="排放">散发 倾倒 偷排 排放</concept>
+      <template name="t358">环保对象2(污染)</template>
+      <template name="t360">环保对象3(破坏)</template>
+      <template name="t358">排放(污染物)</template>
+      <template name="t358">环境单概念</template>
+      <template name="t362">野生动物(贩卖)</template>
+      <template name="t000">人员(人员负面1)</template>
+      <template name="t334">环保对象1(一般负面)</template>
+    </event>
+    <eventAdd name="环境" id="27">
+    	<concept name="污染">异味</concept>
+    	<concept name="污染源">工厂 工地 </concept>
+    	<concept name="破坏">毁坏 过度 [滥超][砍伐采]</concept>
+    	<concept name="贩卖">猎捕 抓捕 虐[杀死] 杀害 枪杀</concept>
+    	<concept name="土地">地表</concept>
+    	<concept name="污染物">尾气 [污废][水液] 扬尘 垃圾 秸秆 废弃物 重金属 汞</concept>
+    	<concept name="森林">林地 林木</concept>
+    	<concept name="水体">水质 水源</concept>
+    	<concept name="排放">直接?排 释放 (乱|任意|大肆)[排扔堆丢] 横流 焚烧 [未不]经处理</concept>
+    	<concept name="野生动物">梅花鹿 红嘴鸥</concept>
+    	<concept name="环境单概念">冒黑烟 ([违非]法|大肆)排污 (黑烟|黄标)车 (过度|滥)(放牧|开[垦荒]) 沙漠化 荒漠化 (发生|出现)[\s\S]{0,4}(酸雨|赤潮|水华) 半夜[\s\S]{0,4}施工</concept>
+    </eventAdd>
+    
+    <event name="物价" id="7">
+      <concept name="物价单概念">物价飞涨 乱定价 操控物价</concept>
+      <concept name="活动">价格鉴定 价格管理 价格评估</concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="物价对象">
+        <child>活动 机构</child>
+        <words />
+      </concept>
+      <concept name="机构">价格认定中心 价格管理处 反价格垄断执法处 价格监督检查处 收费管理处 物价局 成本调查监审处</concept>
+      <concept name="人员">鉴定估价员 价格评估人员 价格鉴定师 价格督查员</concept>
+      <template name="t348">人员(人员负面1)</template>
+      <template name="002">物价单概念</template>
+      <template name="003">物价对象(一般负面)</template>
+    </event>
+    <eventAdd name="物价" id="7">
+    	<!-- <concept name="物价单概念">坐地[涨起加]价 (随意|漫天|[擅私]自|乱)([定调涨开加]价|收费) 突击涨价 哄抬物价 天价</concept> -->
+    	<concept name="物价单概念">乱([定调涨开加]价|收费) 突击涨价 天价 暴利 囤积居奇</concept>
+    	<!-- <concept name="物价">物价 价格 定价 起价 涨价 调价 开价 票价 油价 粮价 药价 要价 标价 收费 物业费 停车费</concept> -->
+    	<concept name="物价">高价 物价 价格 定价 起价 涨价 加价 调价 开价  要价 标价 收费 (票|油|粮|药|学|房|物业|停车|住宿)[价费] 打折</concept>
+    	<concept name="物价负面">混乱 虚假 虚高 水分 过高 不公 垄断 违法 违规 欺诈 不规范 随意 漫天 [擅私]自 坐地  闻风而涨 (猛|暴)涨 哄抬 操纵 窜通</concept>
+    	<template name="000">物价(物价负面)</template>
+    </eventAdd>
+    
+    <event name="旅游" id="28">
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="旅游对象">
+        <child>旅游景点 交通 活动 机构</child>
+        <words />
+      </concept>
+      <concept name="活动">春游 旅游 郊游 游园 自助游 踏青 畅游 出游 观光 自驾游 游山玩水 欢乐游 远足</concept>
+      <concept name="交通">缆车 游船 游艇 旅游大巴 旅行车 观光车</concept>
+      <concept name="旅游单概念">旅游潜规则 噩梦之旅 梦魇之旅</concept>
+      <concept name="人员">观光客 旅行者 游客 游人 导游 旅游者</concept>
+      <concept name="机构">旅店 旅游管理局 旅游局 旅行社 宾馆 旅游管理部门 旅行团 旅馆 饭店 酒店 旅舍</concept>
+      <template name="t290">旅游单概念</template>
+      <template name="t000">人员(人员负面1)</template>
+      <template name="t286">旅游对象(一般负面)</template>
+    </event>
+    <eventAdd name="旅游" id="28">
+    	<concept name="人员">驴友</concept>
+    	<concept name="景区">景区 景点 (动物|植物|游乐)园 古(镇|城)</concept>
+    	<concept name="旅游对象">
+        	<child>景区</child>
+      	</concept>
+    	<concept name="活动">一日游</concept>
+    	<concept name="交通">游轮 索道 缆车</concept>
+    	<concept name="旅游负面">无[证照] 吐痰 随地便溺 乱[扔丢] 脚踢 踩踏 插队 加塞 逃票 喧哗 欺客 宰客 回扣 乱刻 乱画 不(排队|文明) 超越经营范围</concept>
+    	<concept name="旅游单概念">黑导游 黑旅行社 游客滞留</concept>
+    	<template name="000">旅游对象(旅游负面)</template>
+    	<template name="000">旅游对象(伤亡)</template>
+    </eventAdd>
+
+	<event name="自然灾害" id="26">
+      <concept name="后果">倒树 人体疾病 肠道传染病 枯死 积涝 滞留 受伤 受旱 基站故障 伤亡 停电 塌方 减产 爆炸 翻船 绝收 堤防溃决 山崩 决坝 罹难 吞没 车祸 霍乱 水位下降 作物逼熟 失踪 盐碱化 损失 缺水 疫病 搁浅 水灾 翻车 荒漠化 倒房 血吸虫病 风蚀 震裂 流失 污染 受害 霉变 凋零 崩塌 中毒死亡 积水 经济损失 饿毙 瘟疫 结冰 失事 龟裂 灼伤 停航 停水 滑坡 侵蚀 火灾 封冻 干涸 死亡 细菌性痢疾 财产损失 失收 瘟病 断流 沉没 冻害 地陷 倒塌 饥荒 毒气蔓延 交通受阻 被淹 停产 倒毙 受灾 沼泽化 旱灾 干旱 颗粒无收 受损 地震 传染病 地裂</concept>
+      <concept name="灾害">灾难 危害 灾荒 灾情 灾害 险情 灾祸</concept>
+      <concept name="现象">强降温 海浪 强降水 大水 城市积水 低空风切变 霜冻 强对流天气 强降雨 高温天气 气温低 雾霾</concept>
+      <concept name="对象">花生 棉花 草原 胡麻 林业 大棚 鱼 羊 小麦 建筑物 大豆 土壤 水资源 庄稼 农村 牛 虾 海洋生物 山体 蔬菜 航空 表土 农作物 路面 海面 海岸 电线 土地 水利设施 禾苗 渔船 水稻 玉米 房屋 岩石 道路 水生物 矿山 人员 湖面 人 海水 森林 工程 河面 水管 高粱 人畜 城市 农林 作物 水麦 耕地 农田 大气 树枝 农牧业 果树 牲畜 工业 油管 船舶 麦子 农业 田地 水库 粮食 河流 贝类</concept>
+      <concept name="地质等级">特大型 中型 大型 小型</concept>
+      <concept name="地质险情">地质灾害险情</concept>
+      <concept name="气候灾害">大雾 冰雹 寒潮 霾 高温 暴雪 暴雨 雷电 台风 气象 道路结冰 干旱 霜冻 沙尘暴 大风 灾害</concept>
+      <concept name="气象预警等级">红色预警 预警 黄色预警 蓝色预警 橙色预警</concept>
+      <concept name="启动">推进 启动</concept>
+      <concept name="措施">应急救助 防御工作 防治工作 响应 应急避险 应急工作 应急排练 应急响应</concept>
+      <concept name="具体灾害">土崩 草害 地裂缝 暴雪 暴雨 冰凌洪水 冻雨 塌方 干旱风 农作物生物灾害 地面下沉 焚风 稻飞虱 跨山 走山 浓雾 寒潮大风 黄土湿陷 森林生物灾害 地热害 煤层自燃 风暴潮 龙卷风 岩爆 内涝 凌汛 水石流 雪害 自然灾害 沙尘暴 干热风 冻害 岩崩 泥石流 雹灾 拉尼娜 大旱 溃坝洪水 地震灾害 酸雨 虫灾 垮塌 赤潮 洪涝 海啸 地震 地面沉降 冰灾 洪水灾害 海洋灾害 雷电 洪水 渍水 热带气旋 雹害 冰雹 地面塌陷 温带风暴潮 病虫害 雷暴大风 冰川流 崩塌 山洪 土溜 大风灾害 风灾 狂风 病害 旋风 岩土膨胀 地质灾害 水泥流洪水 坑道突水 滑坡 土地冻融 台风 火山 雨涝 突泥 森林火灾 崩落 海冰 虫害 泥流 连阴雨 砂土液化 秋汛 大雾 气象灾害 风害 飓风 雪灾 融雪洪水 台风风暴潮 水土流失 鼠害 蝗灾 厄尔尼诺 突瓦斯 雾霾 冷害</concept>
+      <concept name="发布">发布</concept>
+      <concept name="发生">来袭 暴发 泛滥 出现 登陆 突发 袭来 爆发 发生 产生 肆虐</concept>
+      <concept name="造成">致使 致 导致 破坏 毁坏 诱发 造成 引起</concept>
+      <template name="t239">具体灾害+灾害+发生</template>
+      <template name="t239">[对象+后果](发生)</template>
+      <template name="t239">发布+气候灾害+气象预警等级</template>
+      <template name="t239">现象+造成+后果</template>
+      <template name="t239">具体灾害(发生)</template>
+      <template name="t239">具体灾害+造成+后果</template>
+      <template name="t239">发生+地质等级+地质险情</template>
+      <template name="t239">启动+具体灾害+措施</template>
+    </event>
+    <eventAdd name="自然灾害" id="26">
+    	<concept name="气候灾害">风雹 高温 低温</concept>
+    	<concept name="具体灾害">山崩 风雹 火山喷发 旱[灾情] 洪灾 水灾 雪崩 山火</concept>
+    	<concept name="发生">遭受 遭遇 袭击 爆发 突降 降临 来临 天降 严重</concept>
+    	<concept name="措施">措施 预案</concept>
+    	<concept name="造成">引发</concept>
+    	<concept name="自然灾害单概念">(灾情|受灾)(最|特别|非常)?严重</concept>
+    	<template name="t239">自然灾害单概念</template>
+    	<template name="t239">具体灾害+造成</template>
+    </eventAdd>
+
+	<event name="粮食" id="17">
+      <concept name="机构">粮食交易中心 粮油质量检测中心 粮食局 粮局 粮食交易市场 粮站 粮食交易所 粮交所</concept>
+      <concept name="场所">粮库 粮食仓库 商品粮基地</concept>
+      <concept name="活动">收粮 粮食储运 粮食买卖 粮食交易 售粮 粮食存储 粮食运输 粮食储存</concept>
+      <concept name="粮食对象">
+        <child>场所 农作物 款项 活动 机构</child>
+        <words />
+      </concept>
+      <concept name="粮食负面">歉收 霉变 哄抬 出租 掺水 腐烂 拖欠 霉烂 转租</concept>
+      <concept name="款项">粮价 粮食交易价格 售粮款</concept>
+      <concept name="农作物">大米 水稻 粮食 小麦</concept>
+      <template name="t003">农作物(粮食负面)</template>
+      <template name="t001">粮食对象(粮食负面)</template>
+    </event>
+    <eventAdd name="粮食" id="17">
+    	<concept name="机构">中储粮</concept>
+    	<concept name="活动">粮食生产</concept>
+    	<concept name="款项">粮食价格 粮食?直?补[助贴]?</concept>
+    	<concept name="农作物">玉米 谷物 粮油 菜籽?油</concept>
+    	<concept name="粮食负面">囤积居奇</concept>
+    	<concept name="粮食安全">(?&lt;!解|戒|疗)毒(?!品) 镉 重金属 污染 病?虫害 超标 (?&lt;!未)检出 (条锈|雪腐|白粉|黑穗)病 绝收 污染 欠收 受灾</concept>
+    	<concept name="粮食单概念">[毒镉]大米</concept>
+    	<template name="t001">粮食对象(粮食安全)</template>
+    	<template name="t001">粮食对象(一般负面)</template>
+    </eventAdd>
+    
+    <event name="腐化堕落" id="42">
+        <concept name="冤狱">冤狱 冤案</concept>
+        <concept name="操作">操作 搞鬼 执行 耍伎俩</concept>
+        <concept name="政治">政治 政坛 运政</concept>
+        <concept name="差劲">残暴 十分差 太差 残忍 令人寒心 差 特别差 名声不好 恶劣 非常差 粗暴 粗野 寒心 下滑 差劲 很差 欠佳</concept>
+        <concept name="幕后">黑箱 暗箱 幕后 私底下</concept>
+        <concept name="黑幕">黑暗 黑幕 不管</concept>
+        <concept name="不明">不正当 可疑 昧良心 非法 不明</concept>
+        <concept name="行为1">旅游 炒股 购酒 吃喝 买彩票 请吃 消费 拜神 截留 找小姐 挤占 挤占挪用 报销 买烟 购烟 出国 私用 购买香烟酒水 买酒 挪用 埋单 购物 买车 上香 招待 购买衣物 开支 吃饭</concept>
+        <concept name="公款">公车 公款 公家钱财</concept>
+        <concept name="工作">房屋重建 政府工作 重建工作 安置工作</concept>
+        <concept name="贪污">强行占地 官民赔偿有别 司法不公 收受股票 贿款 索贿 贪腐 贪赃枉法 虚报冒领 行贿 黑钱 拿红包 钱权交易 黑心钱 吃空饷 (?&lt;!查办|反|防止|预防|举报|打击|不|严打|严查|严厉查处|不搞)洗钱 贿选 受贿(?!罪|案|心理) 挪用 吃唐僧肉 (?&lt;!查办|反|防止|预防|举报|打击|不|严打|严查|严厉查处|不搞)经济犯罪(?!侦查支队|侦查局|侦查部门|侦查|侦查学|侦查大队|宣传日) 收受礼品 鱼肉百姓 官商勾结 (?&lt;!查办|反|防止|预防|举报|打击|不|严打|严查|严厉查处|不搞)贿赂(?!罪|案|心理) 花钱买荣誉 (?&lt;!查办|反|防止|预防|举报|打击|不|严打|严查|严厉查处|不搞)贪污 收红包 贪官 卖官 买官 收受购物卡 巨款潜逃 中饱私囊</concept>
+        <concept name="财产">厂房 国有房屋 补偿款 款项 钱款 公共资源 资金 农民林地 征地费 巨款 征用款 工程资金 山林 水源 公共交通资源 补偿费 财产 林地 钱财 农田 防氟炉 国有资产 资产 土地 国家资源 国有企制改革 山地 扶贫款 征地款</concept>
+        <concept name="来源">来源 来历</concept>
+        <concept name="偷卖">变卖 私吞 克扣 私自买卖 盗采 变相掠夺 占为己有 贪墨 劫掠 强占 侵吞 强行占用 掠夺 贱卖 瞒报 (?&lt;!打击)破坏 强抢 霸占 套用 抢夺 偷卖 蚕食 抢占 私卖 贪污 私自卖 鲸吞 瓜分 倒卖</concept>
+        <template name="t239">财产 + 偷卖</template>
+        <template name="t248">政治 + 黑幕</template>
+        <template name="t239">财产 + 来源 + 不明</template>
+        <template name="t239">贪污</template>
+        <template name="t239">偷卖 + 财产</template>
+        <template name="t239">不明 + 财产</template>
+        <template name="t248">幕后 + 操作</template>
+        <template name="t248">工作 + 差劲</template>
+        <template name="t240">公款 + 行为1</template>
+        <template name="t241">行为1 + 公款</template>
+        <template name="t248">冤狱</template>
+   	</event>   
+	<eventAdd name="腐化堕落" id="42">
+		<concept name="财产">公款</concept>
+		<concept name="偷卖">侵吞</concept>
+		<concept name="行为1">嫖娼 请客 送礼 赠送 洗澡</concept>
+		<concept name="贪污">巨贪 贪庸 收受 吃拿卡要 ([贪恶昏庸懒]|太平)官</concept>
+	</eventAdd>
+	
+	<event name="司法" id="13">
+      <concept name="司法对象">
+        <child>场所 活动 机构</child>
+        <words />
+      </concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="司法单概念">司法不公</concept>
+      <concept name="活动">戒毒 劳动教育 判决 劳教 上诉 司法</concept>
+      <concept name="场所">戒毒所 劳教所 监狱 劳动教养管理局 强戒所</concept>
+      <concept name="机构">中国监狱工作协会 监狱管理局 中国劳动教养学会 司法局 司法厅 司法鉴定管理处 劳动教育管理局 戒毒管理局</concept>
+      <concept name="人员">劳改犯 法官 劳教人员 狱警 律师</concept>
+      <template name="t348">人员(人员负面1)</template>
+      <template name="003">司法单概念</template>
+      <template name="002">司法对象(一般负面)</template>
+    </event>
+    <eventAdd name="司法" id="13">
+    	<concept name="司法概念">司法 法律 刑法 减刑 审判 取证 立案 办案 结案 案件 案情 证据 裁判 审[判理] 口供 供述 罪名 受案 判刑 判决 搜查 拘留  庭审 法治  刑拘 起诉 定案</concept>
+    	<concept name="场所">狱中 牢房</concept>
+    	<concept name="机构">法院 高院 中院 检察(院|机关|部门) 公检法 看守所 合议庭 批捕科 公堂</concept>
+    	<concept name="人员">囚犯 犯人 牢头 (服刑|在押|羁押)(人员|犯) 检察官 审判长 庭长 法警 办案人员</concept>
+    	<concept name="司法负面">越狱 掮客 操[控纵] 干涉 (违法|非法|违规|违章)操作 干预 插手 屈服 模糊 [编捏][造织] 莫须有 冤枉 草率 草草 错判 超?越(管辖)?权 不严 偏[袒私] 包庇 陷害 任性 我行我素 [乱滥错胡瞎][审判] 随意 销毁 伪造  隐[匿藏] 虚假  程序违法 违反(法定)?程序 走过场 流于形式 乏力</concept>
+    	<concept name="违法司法">违法 违规 枉法 非法 不[依遵]照?法 瞎</concept>
+    	<concept name="伤亡">死亡 猝死 身亡 自杀</concept>
+    	<concept name="司法单概念">压案 冤[案狱] 假案 错案 提钱出狱 刑讯(逼供)? 挟法行私 自审自记 未审先(定罪|判) 虐囚 办(关系|人情|权力|金钱)案 狱霸 瞒案 抹案 (偏[袒私]|包庇)被告 蒙冤入狱 (未|不)经过?审判[^不]{2,4}执行 黑(监狱|法院) 伪证 严刑 酷刑 伸冤 葫芦案</concept>
+    	<template name="000">人员(一般负面)</template>
+    	<template name="000">司法对象(司法负面)</template>
+    	<template name="000">司法概念(司法负面)</template>
+    	<template name="000">人员(司法负面)</template>
+    	<template name="000">违法司法{2}司法概念</template>
+    	<template name="000">人员+伤亡</template>
+    	<template name="000">场所(伤亡)</template>
+    	<template name="000">机构(滥用)</template>
+    </eventAdd>
+    
+    <event name="讨薪问题" id="38">
+          <concept name="工资">工资 血汗钱 工钱 房款 土地款 建设款 工薪 薪酬</concept>
+          <concept name="拖欠">(?&lt;!不|不能)拖欠 (?&lt;!不|不能)克扣 (?&lt;!不|不能)拖延</concept>
+          <concept name="民工">民工 工人 农民</concept>
+          <concept name="血书">惨案 流血事件 血案 血书</concept>
+          <concept name="讨薪">讨要工钱 要求付工资 坑害 讨要工资 讨薪</concept>
+          <concept name="遭暴行">被砍 下跪 棒打 非法压制 刀砍 辱骂 被挑断四肢筋脉 遭打 遭围殴 遭暴行 喝农药 跳楼 被挑断脚筋 被杀 遭殴打 围打 流血 被打 出警 猝死</concept>
+          <concept name="攻击">袭击 围殴 枪击 殴打 攻击</concept>
+          <template name="t300">拖欠+工资</template>
+          <template name="t296">讨薪 + 遭暴行</template>
+          <template name="t300">讨薪 + 民工</template>
+          <template name="t298">血书 + 讨薪</template>
+          <template name="t297">攻击 + 讨薪 + 民工</template>
+          <template name="t299">民工 + 讨薪</template>
+   </event>
+	<eventAdd name="讨薪问题" id="38">
+		<concept name="民工">农民工</concept> 
+		<concept name="包工头">包工头</concept>
+		<concept name="玩失踪">玩失踪 躲猫猫 跑路</concept>
+		<concept name="工资">薪[资水] 劳动报酬 工[钱款]</concept>
+		<concept name="讨薪">(讨要?|索?要|结算)(工[资钱款]|薪[资水]|双薪)</concept>
+		<concept name="拖欠">拒[不绝]?(支?付|发放) 欠 无法领取 不(给|支付|发放?) 延迟发放</concept>
+		<concept name="遭暴行">[打捅][死伤] 喝药 自杀 暴打 毒打 群殴 自残 刀捅 扭断 割喉</concept>
+		<concept name="讨薪单概念">欠薪 恶意欠薪 讨薪无门</concept>
+		<template name="t297">讨薪单概念</template>
+		<template name="t297">工资(拖欠)</template>
+		<template name="t297">讨薪(伤亡)</template> 
+		<template name="t297">包工头+玩失踪</template>
+		<template name="t297">包工头+拖欠</template>
+		<template name="t297">讨薪(攻击)</template>
+		<template name="t297">讨薪(遭暴行)</template>
+		<template name="t300">拖欠+民工+工资</template>
+	</eventAdd>
+	
+	<event name="体育" id="20">
+      <concept name="活动">中甲 亚运会 足球赛 残奥会 冬运会 奥运会 大运会 中乙 世锦赛 田径赛 职业拳击赛 接力赛 中超 球赛 足球锦标赛 马拉松赛 越野赛 乒超 世界杯 冠军杯 世青赛</concept>
+      <concept name="违反">不遵守 违反</concept>
+      <concept name="人员">拉拉队 队员 裁判 竞赛组织者 射门手 比赛组织者 主攻手 中锋 教练 观众 运动员 后卫 球迷 守门员 拳手 裁判员 巡边员 替补队员 球手 球员 球星 参赛选手 参赛者 球队</concept>
+      <concept name="机构">足球协会 篮协 乒协 体育馆 羽协 篮球协会 群众体育处 乒乓球协会 竞技体育处 青少年体育处 羽毛球协会 足协 体育医院 体育训练基地 体育经济处</concept>
+      <concept name="注射">(?&lt;!禁止)口服 经营 (?&lt;!禁止)服用 进出口 (?&lt;!禁止)注射 销售 生产 (?&lt;!禁止)使用</concept>
+      <concept name="违禁药物">肽类激素 蛋白同化制剂 违禁药物 兴奋剂</concept>
+      <concept name="规定">赛风赛纪 规定 纪律 政策法规 体育精神 规则</concept>
+      <concept name="体育单概念">拒绝领奖 人为更改比赛结果 权运会 钱运会 假赛 (?&lt;!禁止)消极比赛 擅自停赛 0分门 体质差 改龄 举国体制 服禁药 黑哨 虚报年龄 罢赛 内定冠军 赌球</concept>
+      <concept name="体育设施">绿茵场 足球场 球场 体育设施 游泳馆 赛场 棒球场 游泳池 比赛场地 羽毛球馆 网球场 健身房 冰场 体育场</concept>
+      <concept name="运动项目">赛艇 韵律操 羽毛球 吊环 壁球 挺举 登山 赛马 高尔夫 竞走 田径 铁饼 高低杠 拔河 击剑 篮球 滑冰 水上芭蕾 平衡木 男排 爬泳 飞镖 仰泳 自由泳 女排 马拉松 棒球 蛙泳 橄榄球 游泳 射击 举重 蝶泳 女篮 器械操 足球 曲棍球 体操 散打 保龄球 跳水 排球 长跑 混双 水球 撑杆跳 短跑 掷标枪 跳高 台球 拳击 跳马 赛车 男篮 飞碟 跨栏 滑雪 网球 混合泳 乒乓球 铅球 垒球 摔跤 团体操</concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="体育对象">
+        <child>体育设施 运动项目 活动 机构</child>
+        <words />
+      </concept>
+      <template name="t337">体育对象(一般负面)</template>
+      <template name="t337">[违反+ 规定](活动)</template>
+      <template name="t337">体育单概念</template>
+      <template name="t337">注射 + 违禁药物</template>
+      <template name="t000">人员(人员负面1)</template>
+    </event>
+    <eventAdd name="体育" id="20">
+    	<concept name="人员">球迷</concept>
+    	<concept name="体育单概念">踢假球 药检[\s\S]{0,4}阳性 兴奋剂[\s\S]{0,4}阳性 打假球</concept>
+		<concept name="违禁药物">睾丸激素</concept>
+		<concept name="体育设施">高尔夫球场</concept>
+    </eventAdd>
+    
+    <event name="住房建设" id="24">
+      <concept name="活动">设施 拆家 市政规划 城市改造 拆除 政府规划 征地 市政管理 挖掘土地 市政建设 城市规划 拆迁 征田 挖矿 城市管理</concept>
+      <concept name="设施">窨井盖 电缆 路口 地下通道 天桥 人行道 下水道 全城 工地</concept>
+      <concept name="场所">消防紧急通道 无线电微波通道 市政设施 保护区 规划内用地 公共用地 居民小区通道 电力用地 救护紧急通道 自来水线路用地 环卫通道 地下防空紧急通道 地下放空通道 安全保护用地 消防通道 交通线路用地 煤气线路用地 通信线路用地 交通用地 救护通道 环卫出入口 居住小区绿地 国防设施 单位通道 禁建区 电力线路用地 居民小区出入口 公共服务设施 国家安全设施 污水线路用地 通信用地 单位出入口 城市公共绿地 风景名胜区</concept>
+      <concept name="住建单概念">强拆 豆腐水渠 强征 乱搭乱建 偷拆 暴力征地 豆腐渣工程 强制拆迁 强征地</concept>
+      <concept name="人员">承包商 包工头</concept>
+      <concept name="机构">勘察设计处 建筑市场监管处 建设厅 住建厅 住房保障管理处 城乡建设执法稽查处 城乡规划处 工程质量安全监管处 计划财务处 房地产市场监管处 住房保障处 住房保障建设计划处 抗震防震处 建设处 风景名胜区管理处 住房保障政策指导处 住房公积金监管处 城市管理处</concept>
+      <concept name="工程">铁路 隧道 高速 保障房 天桥 廉租房 商品房 施工 大桥 水渠 工地 民宅 安置房 楼盘 公路 老建筑 还建房 作业</concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="住建对象">
+        <child>设施 场所 工程 活动 机构</child>
+        <words />
+      </concept>
+      <concept name="住建负面">磨洋工 烧钱费金 简陋 (?&lt;!绝不|不会|杜绝|避免|不能)偷工减料 豆腐渣</concept>
+      <template name="t316">住建对象(住建负面)</template>
+      <template name="t316">住建对象(一般负面)</template>
+      <template name="t316">住建单概念</template>
+      <template name="t000">人员(人员负面1)</template>
+    </event>
+    <eventAdd name="住房建设" id="24">
+    	<concept name="活动">施工 修建 翻建 搭建 城建 城市建设 建设管理 市政工程 [拆扒][房屋楼]</concept>
+    	<concept name="设施">井盖 盲道 路灯 护栏 市政设施 公[地路]</concept>
+    	<concept name="不完备">被[毁偷占] 占[用据] 独占(?!鳌头) 破损 [私擅乱滥][占停堆放]</concept>
+    	<concept name="场所">公共绿地 小区</concept>
+    	<concept name="乱建">(私[自下]?|擅自?|偷|乱|滥)(开?挖|搭|建)</concept>
+    	<concept name="乱建对象">地下室  棚</concept>
+    	<concept name="住建单概念">[私擅乱滥]搭[私擅乱滥]建 乱[停堆]乱放 (占道|店外)经营 违建 [非违][法规章](建[设筑]|搭建) 黑楼盘 一房多卖 无盖窨井</concept>
+    	<concept name="人员">开发商 房企 建筑商 地产 置业 物业 业主 城管</concept>
+    	<concept name="机构">(住房?|房产?|城市?)(建设?|管理?)(局|厅|委|部)</concept>
+    	<concept name="工程">回迁房 楼房 房屋  建设项目 房地?产 建筑 工程</concept>
+    	<concept name="工程负面">(隔音)(问题|差) 漏水 裂缝 烂尾 下沉 [倒坍垮]塌</concept>
+    	<!-- <concept name="代指工程">小区</concept> -->
+    	<template name="000">设施(不完备)</template>
+    	<template name="000">场所(不完备)</template>
+    	<template name="000">乱建(乱建对象)</template>
+    	<template name="000">乱建(工程)</template>
+    	<template name="000">工程(工程负面)</template>
+    	<!-- <template name="000">代指工程(工程负面)</template>
+    	<template name="000">代指工程(不合格)</template>
+    	<template name="000">代指工程(住建负面)</template> -->
+    </eventAdd>
+    
+    <event name="拆迁 征地问题" id="40">
+        <concept name="强拆">强拆 偷拆 强制拆迁 征地冤案</concept>
+        <concept name="强征地">强拆 强征 暴力征地 不合理拆迁 强征地</concept>
+        <concept name="人员">领导 警察 警员 官员 警方 城管 保安</concept>
+        <concept name="房屋">民房 房屋 住宅 建筑 农民家园</concept>
+        <concept name="机关">建设厅 体育局 残联机构 科技厅 教育局 政法委 督查组 水利厅 县人大 卫生局 文化系统 法院(?!认定|根据|以) 邮局 文化厅 路政大队 监察局 环保局 交警队 民族事务委员会 土地局 信息产业厅 劳动保障厅 派出所 市委 国务院 治理单位 住建厅 广电局 边防总队 民政局 国资委 政府 银行 邮政 司法厅 交通委 公安局 市人大 纪委监察 广播电视局 党支部 旅游局 教育厅 监察厅 财政厅 大队 省委 统计局 商务局 村支部 民政厅 检察机关 文化局 交通局 党委 发改委 管理局 信访局 人事厅 农业局 公检法司 卫生厅 药监局 部门 机场 审计局 林业局 新闻出版局 村委会 国土局 人事局 工商局 林业厅 文物局 交通厅 考试中心 环境保护局 财政局 园林局 审计厅 工业促进局 水利局 司法局 国土资源厅 运政所 安全厅 农业厅 质量检测中心 检察院</concept>
+        <concept name="血案">惨案 血案 流血 自焚</concept>
+        <concept name="暴力">野蛮 恐吓 暴力 强行 强制 威胁</concept>
+        <concept name="拆迁">拆家 拆除 拆迁</concept>
+        <concept name="非法">不合法 非法 违法</concept>
+        <concept name="征地">征田 挖矿 征地 挖掘土地</concept>
+        <concept name="纠纷">纠纷 矛盾 冲突</concept>
+        <concept name="不合理">不完善 不合理 不足 补偿不公 不赔付</concept>
+        <template name="t265">房屋 + 强拆</template>
+        <template name="t265">强征地</template>
+        <template name="t269">征地 + 血案</template>
+        <template name="t270">征地 + 纠纷</template>
+        <template name="t262">非法 + 拆迁</template>
+        <template name="t273">非法 + 征地</template>
+        <template name="t268">强拆 + 不合理</template>
+        <template name="t274">拆迁 + 血案</template>
+        <template name="t264">征地 + 暴力</template>
+        <template name="t268">征地 + 不合理</template>
+        <template name="t266">机关 + 强拆</template>
+        <template name="t277">暴力 + 征地</template>
+        <template name="t271">拆迁 + 不合理</template>
+        <template name="t266">人员 + 强拆</template>
+        <template name="t275">征地 + 非法</template>
+        <template name="t265">强拆 + 房屋</template>
+        <template name="t278">暴力 + 拆迁</template>
+        <template name="t263">拆迁 + 纠纷</template>
+        <template name="t272">拆迁 + 暴力</template>
+        <template name="t268">强征地 + 不合理</template>
+        <template name="t267">拆迁 + 非法</template>
+      </event>
+    <eventAdd name="拆迁 征地问题" id="40">
+    	<concept name="强拆">血拆 误拆 强迁 暴拆</concept>
+    	<concept name="血案">喝药 跳楼 自杀 打死 死亡</concept>
+    	<concept name="征地">征[收用][\s\S]{0,4}土地</concept>
+    	<concept name="拆迁">[拆扒][房屋楼] 抗拆</concept>
+    	<concept name="不合理">任性</concept>
+    	<concept name="暴力">强挖 打手 强制 毁占</concept>
+      	<concept name="强征地">逼拆 抢拆</concept>
+      	<concept name="征地拆迁补偿">(征地|占地|土地|拆迁)([补赔]偿|[费款])</concept>
+      	<concept name="土地">(集体)?土地 农地 田地 耕地 农用地 地基</concept>
+      	<concept name="手段">艾滋 粪便 断(水|电|路) 堵路 [放纵]火</concept>
+      	<template name="000">强拆</template>
+      	<template name="000">拆迁(一般负面)</template>
+      	<template name="000">征地(一般负面)</template>
+      	<template name="000">拆迁(不适)</template>
+      	<template name="000">征地(不适)</template>
+      	<template name="000">征地拆迁补偿(挪用)</template>
+      	<template name="000">土地(挪用)</template>
+      	<template name="000">征地拆迁补偿(不合理)</template>
+      	<template name="000">拆迁(手段)</template>
+      	<template name="000">拆迁(遭暴行)</template>
+      	<template name="000">征地(遭暴行)</template>
+      	<template name="000">拆迁(攻击)</template>
+      	<template name="000">征地(攻击)</template>
+	</eventAdd>
+
+	<event name="教育" id="31">
+      <concept name="校车">校车</concept>
+      <concept name="设备">课桌 讲台 投影仪 教学设备 粉笔 黑板</concept>
+      <concept name="教育单概念">一稿多投 学术不端 学术失范 侵吞科研经费 学术腐败 买卖生源 校园暴力 (?&lt;!退|省)补课费 团伙舞弊 实验作假 钱学交易 霸王条款 虚假报考 学术不良行为 学术不诚实 有偿补课 学色交易 权学交易</concept>
+      <concept name="经费">助学金 补课费 科研经费 学费 奖学金 助学贷款 教育经费</concept>
+      <concept name="学历">学籍 学历</concept>
+      <concept name="教学水平">教学成就 数据 奖项 学术头衔 科研成果 论文记录 文章 论文 专利 教学质量 简历 著作权 教学水平 教学成果</concept>
+      <concept name="活动">实验 研讨会 学术会议 学术活动 职称评定 考试 教学 研究 职称考核 学术</concept>
+      <concept name="造假">造假 冒充</concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <concept name="教育">
+        <child>场所 设备 活动 机构</child>
+        <words />
+      </concept>
+      <concept name="人员">
+        <child>人员1 人员2</child>
+        <words />
+      </concept>
+      <concept name="人员1">导师 督学 讲师 老师 系主任 教导主任 教员 教授 校领导 助教 园丁 级主任 家长 教师 研究员 幼师 校长 师长 班主任 专家 辅导员 学者</concept>
+      <concept name="人员2">差生 学生 毕业生 优秀生 女生 学长 学士 复读生 博士生 男生 女童 委培生 考生 本科生 孩子 博士 硕士 学姐 幼女 儿童 研究生 男童 应届生 学者 婴童</concept>
+      <concept name="机构">职教处 教育局 学校 中学 教育部 文教局 高中 教育处 职校 托儿所 小学 教育厅 教育科 大学 学院 技校 教委 职教科 幼儿园 初中 校方</concept>
+      <concept name="场所">学校建筑 图书馆 女生宿舍 学校建设 电教室 培训楼 校园 男生宿舍 操场 考场 教室 教学楼 研究室 学生宿舍 实验室</concept>
+      <template name="t316">经费(挪用)</template>
+      <template name="t316">校车(肇事)</template>
+      <template name="t000">人员(人员负面1)</template>
+      <template name="t316">学历 + 造假</template>
+      <template name="t316">教育(一般负面)</template>
+      <template name="t316">教育单概念</template>
+    </event>
+    <eventAdd name="教育" id="31">
+    	<concept name="活动">教学 升学 择校 招生 入学 艺考 补课 毕业 高考 补考 上课 办学 补习 留学 招考</concept>
+    	<concept name="人员1">教辅 师生 幼师 外教</concept>
+    	<concept name="设备">教材</concept>
+    	<concept name="机构">高校 补习班 培优班</concept>
+    	<concept name="学历">学位</concept>
+     	<concept name="教育负面">针扎  排挤 跪拜 枪手</concept>
+     	<concept name="人员负面1">
+        	<child>教育负面</child>
+     	</concept>
+     	<concept name="教育概念">教育 课程 毕业证</concept>
+     	<concept name="教育">
+        	<child>教育概念</child>
+        </concept>
+        <concept name="教育单概念">替考 补课收费 野鸡大学</concept>
+        <template name="000">教育(教育负面)</template>
+	</eventAdd>
+	
+	<event name="国土资源" id="16">
+      <concept name="土地单负面1">毁坏农田 违法丈量 豪华坟墓 被上楼</concept>
+      <concept name="土地对象">耕地 宅基地 土地</concept>
+      <concept name="土地负面1">非法圈地 强拆 钉子户 侵占耕地 渣土倾倒 违规占地 占优补劣 倾倒渣土 闲置土地 违规征地 占多补少 土地闲置 强行拆迁 强行征地 耕地红线</concept>
+      <concept name="国土对象">
+        <child>土地活动 机构</child>
+        <words />
+      </concept>
+      <concept name="土地负面">
+        <child>土地负面1</child>
+        <words />
+      </concept>
+      <concept name="机构">地籍管理处 土地利用管理处 矿产资源储量处 国土资源厅 矿产开发管理处 耕地保护处</concept>
+      <concept name="土地活动">矿产开发</concept>
+      <concept name="土地负面活动">抢占 强占 强买 侵占</concept>
+      <template name="t000">国土对象(土地负面)</template>
+      <template name="t002">土地单负面1</template>
+      <template name="t001">土地负面活动 + 土地对象</template>
+	</event>
+	<eventAdd name="国土资源" id="16">
+		<concept name="土地单负面1">(违法|非法)开采</concept>
+		<concept name="土地活动">[挖取采](稀?土|砂|河?沙|煤|矿|石) 挖山 开矿 (征用?|挖掘?|圈占?|划拨?)土?地 征田 用地 占地 围地 圈地 批地 土地(使用|管理)</concept>
+		<concept name="土地对象">农用地 地块 责任田 农田 良田 亩地 宅基地  国有划拨土地 (集体)?建设用地 矿山</concept>
+		<concept name="机构">(国土|土地|矿[产务])(资源)?(管理)?([局厅部]|部门|机关) [矿砂]管局</concept>
+		<concept name="国土对象">
+        	<child>土地对象 地款</child>
+      	</concept>
+      	<concept name="土地负面活动">强推  越界 超采 超范围 违法 违规 非法</concept>
+      	<concept name="资源机构">煤矿 铜矿 铁矿 非煤矿山</concept>
+      	<concept name="地款">(征地|土地)([补赔]偿|费)</concept>
+		<template name="t000">国土对象(一般负面)</template>
+		<template name="t001">土地对象+土地负面活动</template>
+		<template name="t000">资源机构(土地负面活动)</template>
+		<template name="000">地款(挪用)</template>
+		<template name="000">土地对象(挪用)</template>
+	</eventAdd>
+	
+	<event name="水利" id="15">
+      <concept name="人员">防汛抗旱指挥部(专职)?(副)?指挥长 水文资源局局长</concept>
+      <concept name="机构">农村水利处 水土保持处 防汛抗旱指挥部 水土保持委员会 水资源处</concept>
+      <concept name="场所">灌溉渠 水利厅 河堤 大堤 水电站</concept>
+      <concept name="活动">开凿 水利建设 加固大堤 抗旱 防汛</concept>
+      <concept name="水利对象">
+        <child>场所 活动 机构</child>
+        <words />
+      </concept>
+      <concept name="人员负面1">
+        <child>一般负面 人员负面</child>
+        <words />
+      </concept>
+      <template name="t000">水利对象(一般负面)</template>
+      <template name="t000">人员(人员负面1)</template>
+    </event>
+    <eventAdd name="水利" id="15">
+    	<concept name="机构">水[利务文](局|厅|部|站) 防汛办</concept>
+    	<concept name="设施">大坝 堤坝 水库 农灌设施</concept>
+    	<concept name="活动">填[湖河] 建坝 挖沙</concept>
+    	<concept name="污染">污[染水] 废水  超标 恶化 有毒 异味 臭 死鱼 异常 浑浊 (超|过度)(采|开发)</concept>
+    	<concept name="破坏">盗挖 决堤 溃堤</concept>
+    	<concept name="水费">水费</concept>
+    	<concept name="水利对象">
+        	<child>设施 水费 水体</child>
+      	</concept>
+      	<concept name="水体">河[道面段渠流水湖] [上下]游 井水 自来水 江水 饮用水 水体 水源 湖水 湖泊 泉水 河口 水流 饮水 水塘 河塘 水域 淡水 泉眼 地下水 水(质|资源|环境) (母亲|江|小)河</concept>
+    	<concept name="水利单概念">私填[河湖江] 水污染 水土流失</concept>
+    	<template name="000">水体 (污染)</template>
+    	<template name="000">设施(破坏)</template>
+    	<template name="000">水利单概念</template>
+    </eventAdd>
+</root>
